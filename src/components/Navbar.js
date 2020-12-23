@@ -1,68 +1,47 @@
-import React, {useState} from 'react';
+import React,  {useState} from 'react';
+import * as  FaIcons from 'react-icons/fa';
+import * as  AiIcons from 'react-icons/ai';
 import {Link} from 'react-router-dom';
+import {SidebarData} from './SidebarData';
 import './Navbar.css';
-import {Button} from './Button';
+import {IconContext} from 'react-icons';
 
-function Navbar() {
-    const[click, setClick] = useState(false);
-    const [button, setButton] = useState(true);
-    
-    const handleClick = () => setClick(!click);
-    
-    const closedMobileMenu = () => setClick(false);
-    
-    const showButton = () => {
-        if (window.innerWidth <= 960){
-            setButton(false);
-        } else{
-            setButton(true);
-        }
-    };  
+export default function Navbar() {
+    const [sidebar, setSidebar] = useState(false);
 
-    window.addEventListener('resize', showButton);
+    const showSidebar = () => setSidebar(!sidebar);
+   
     return (
         <>
-            <nav className="navbar"> 
-                <div className="navbar-container">
-                    <Link to="/" className="navbar-logo">
-                        <i className='fas fa-crown'/> 
-                    </Link>
-                    <div className='menu-icon' onClick= {handleClick}>
-                        <i className={click ? 'fas fa-times ' :  ' fas fa-bars'} />
-                    </div>
-                    <ul className= {click ? 'nav-menu active' : 'nav-menu'}>
-                    <li className='nav-item'>
-                            <Link to='/' className='nav-links' onClick={closedMobileMenu}>
-                                Home
-                            </Link>
-                        </li>
-                        <li className='nav-item'>
-                            <Link to='/aboutme' className='nav-links' onClick={closedMobileMenu}>
-                                About Me
-                            </Link>
-                        </li>
-                        <li className='nav-item'>
-                            <Link to='/projects' className='nav-links' onClick={closedMobileMenu}>
-                                Projects
-                            </Link>
-                        </li>
-                        <li className='nav-item'>
-                            <Link to='/contact' className='nav-links-mobile' onClick={closedMobileMenu}>
-                                Contact Me
-                            </Link>
-                        </li>
+        <IconContext.Provider value ={{color: 'red'}}>    
+            <div className="navbar">
+                <Link to="#" className='menu-bars'>
+                    <FaIcons.FaBars onClick ={showSidebar}/>
+                </Link>
+            </div>  
 
-                    </ul>
+            <nav className = {sidebar ? 'nav-menu active' : 'nav-menu'}>
+                <ul className='nav-menu-items' onClick ={showSidebar} >
+                    <li className="navbar-toggle">
+                        <Link to = "#" className='menu-bars'>
+                            <AiIcons.AiOutlineClose/>
+                        </Link>
+                    </li>
 
-                    {button && <Button buttonStyle='btn--outline'>Contact Me
-                    </Button>}
+                    {SidebarData.map((item, index) =>{
+                        return(
+                            <li key={index} className={item.cName}>
+                                <Link to={item.path}>
+                                    {item.icons}
+                                    <span>{item.title}</span>
+                                </Link>
+                            </li>
+                        ) 
+                    })}
 
-
-                </div>
-
+                </ul>
             </nav>
+            </IconContext.Provider>
         </>
-    )
-}
-
-export default Navbar
+    );
+};
