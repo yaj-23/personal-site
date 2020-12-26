@@ -13,6 +13,7 @@
 }
 
 .nav-menu {
+  z-index: 1;
   background-color: black;
   width: 250px;
   height: 100vh;

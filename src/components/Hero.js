@@ -5,13 +5,18 @@ import'./Hero.css';
 function Hero(){
   return(
     <div className ='hero-container'>
-      <h1 className="glitch">
-        <span aria-hidden ="true">Yajurva</span>
-        <span>Yajurva</span>
-        <span aria-hidden="true">Yajurva</span>
-      
-      
+      <h1>
+          <div className="greeting-hello">
+            Hello, Nice to Meet You
+          </div>
+
+          <div className="name-yajurva">
+            I'm Yajurva Trivedi
+          </div>
+
+
       </h1>
+      
     </div> 
   )
 }
