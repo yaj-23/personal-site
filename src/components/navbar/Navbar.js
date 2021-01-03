@@ -1,47 +1,72 @@
-import React,  {useState} from 'react';
-import * as  FaIcons from 'react-icons/fa';
-import * as  AiIcons from 'react-icons/ai';
+import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
-import {SidebarData} from './SidebarData';
-import './Navbar.css';
-import {IconContext} from 'react-icons';
+import logo from '../images/Logo.png';
+import menubar from '../images/Hamburger_Menu.png';
+import menux from '../images/Hamburger_Close.png';
+import "./Navbar.css";
+
+
+
+
+
 
 export default function Navbar() {
-    const [sidebar, setSidebar] = useState(false);
-
-    const showSidebar = () => setSidebar(!sidebar);
-   
+    
+    const [click, setClick] = useState(false); /* Menu Toggle for Mobile Function*/
+    const handleClick = () => setClick(!click);
+    
     return (
         <>
-        <IconContext.Provider value ={{color: 'red'}}>    
-            <div className="navbar">
-                <Link to="#" className='menu-bars'>
-                    <FaIcons.FaBars onClick ={showSidebar}/>
-                </Link>
-            </div>  
+            <div className="navbar"> {/* This is the entire Navbar Component*/}
+                
+                <div className="navbar-container container"> {/* This is the Navbar Component Divisions like Logo and Links*/}
+                    
+                    <Link to='/' className='navbar-logo'>{/* This is the Logo Component, imports sourse from images*/}
+                        <img src={logo} alt=""/>
+                    </Link>
 
-            <nav className = {sidebar ? 'nav-menu active' : 'nav-menu'}>
-                <ul className='nav-menu-items' onClick ={showSidebar} >
-                    <li className="navbar-toggle">
-                        <Link to = "#" className='menu-bars'>
-                            <AiIcons.AiOutlineClose/>
+                    <div className='menu-icon' onClick ={handleClick}> {/* This checks if its clicked, if yea, change to closed, if not keep displaying bars*/}
+                        {click ? <img src={menux} alt=""/> : <img src={menubar} alt=""/>}
+                    </div>
+                
+                </div>
+
+                <ul className = {click ? 'nav-menu active' : 'nav-menu'}> {/* If menu is active, show css for that, otherwise remain the normal css for menu items*/}
+                    <li className='nav-item'> {/*  So basically ythis is the links, css is done for all those wjho are not clicked*/}
+                        <Link to='/' className='nav-links'>
+                            Home
                         </Link>
                     </li>
 
-                    {SidebarData.map((item, index) =>{
-                        return(
-                            <li key={index} className={item.cName}>
-                                <Link to={item.path}>
-                                    {item.icons}
-                                    <span>{item.title}</span>
-                                </Link>
-                            </li>
-                        ) 
-                    })}
+                    <li className='nav-item'> {/*  So basically ythis is the links, css is done for all those wjho are not clicked*/}
+                        <Link to='/' className='nav-links'>
+                            About
+                        </Link>
+                    </li>
 
+                    <li className='nav-item'> {/*  So basically ythis is the links, css is done for all those wjho are not clicked*/}
+                        <Link to='/' className='nav-links'>
+                            Experience
+                        </Link>
+                    </li>
+
+                    <li className='nav-item'> {/*  So basically ythis is the links, css is done for all those wjho are not clicked*/}
+                        <Link to='/' className='nav-links'>
+                            Projects
+                        </Link>
+                    </li>
+
+                    <li className='nav-item'> {/*  So basically ythis is the links, css is done for all those wjho are not clicked*/}
+                        <Link to='/' className='nav-links'>
+                            Contact
+                        </Link>
+                    </li>
+               
+               
                 </ul>
-            </nav>
-            </IconContext.Provider>
+                
+
+            </div>
         </>
-    );
-};
+    )
+}
