@@ -14,10 +14,23 @@ export default function Navbar() {
     
     const [click, setClick] = useState(false); /* Menu Toggle for Mobile Function*/
     const handleClick = () => setClick(!click);
+
+    const[navbar, setNavbar] = useState(false);
+
+    const changeBG = () => {
+        if(window.scrollY >=80) {
+            setNavbar(true)
+        } else{
+            setNavbar(false)
+        }
+    }
+
+    window.addEventListener('scroll', changeBG); 
+
     
     return (
         <>
-            <div className="navbar"> {/* This is the entire Navbar Component*/}
+            <div className={navbar ? 'navbar active' : 'navbar'}> {/* This is the entire Navbar Component*/}
                 
                 <div className="navbar-container container"> {/* This is the Navbar Component Divisions like Logo and Links*/}
                     
