@@ -32,10 +32,33 @@
   margin-top: 50px;
 }
 
+.button-one {
+  padding-right: 15px;
+}
+.button-two {
+  margin-right: 15px;
+}
+
+.button-three {
+  margin-right: 15px;
+}
+
 @media screen and (max-width: 960px) {
   .hero-container {
     align-items: center;
     background: url("../images/Tab_Hero.png");
+  }
+
+  .buttons {
+    flex-direction: column;
+    margin-top: 15px;
+    align-items: center;
+  }
+  .button-two {
+    padding-top: 15px;
+  }
+  .button-three {
+    padding-top: 15px;
   }
 
   .greetings {
@@ -51,6 +74,10 @@
   .hero-container {
     align-items: center;
     background: url("../images/Mobile_Hero.png");
+  }
+  .buttons {
+    flex-direction: column;
+    margin-top: 15px;
   }
   .greetings {
     font-size: 50px;

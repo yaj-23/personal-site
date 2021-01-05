@@ -17,13 +17,13 @@ function Hero() {
                     </div>
 
                     <div className='button-two'>                
-                        <Button buttonStyle='btn-primary' buttonColor='primary' buttonSize='btn-medium'>
+                        <Button buttonStyle='btn-primary' buttonColor='secondary' buttonSize='btn-medium'>
                             Projects
                         </Button>
                     </div>
 
                     <div className='button-three'>                
-                        <Button buttonStyle='btn-primary' buttonColor='primary' buttonSize='btn-medium'>
+                        <Button buttonStyle='btn-primary' buttonColor='third' buttonSize='btn-medium'>
                             Contact Me
                         </Button>
                     </div>
