@@ -25,6 +25,13 @@
   margin-left: 100px;
 }
 
+.buttons {
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
 @media screen and (max-width: 960px) {
   .hero-container {
     align-items: center;
