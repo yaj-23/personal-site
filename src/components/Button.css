@@ -77,8 +77,8 @@
   border: none;
 }
 .secondary:hover {
-  background-color: #f7ce68;
-  color: #303030;
+  background-color: #303030;
+  color: #f7ce68;
   font-weight: 600;
   border: none;
 }
@@ -91,6 +91,20 @@
 }
 .third:hover {
   background-color: #303030;
+  color: #fbab7e;
+  font-weight: 600;
+  border: none;
+}
+
+.about {
+  background-color: #fbab7e;
+  color: #303030;
+  font-weight: 600;
+  border: none;
+}
+
+.about:hover {
+  background-color: snow;
   color: #fbab7e;
   font-weight: 600;
   border: none;

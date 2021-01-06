@@ -19,7 +19,37 @@
     0.025em 0.05em 0 #e0c3fc;
   animation: glitch 500ms infinite;
 }
+.cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.para-first {
+  width: 100%;
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+  color: #303030;
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
 
+.animone {
+  margin-right: 150px;
+  margin-top: -50px;
+  width: 70%;
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+}
+.animone:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.button-about {
+  margin-top: -150px;
+}
 @keyframes glitch {
   0% {
     text-shadow: 5px -10px 0 #f7ce68, -5px 5px 0 #fbab7e, 5px 0 0 #e0c3fc;
@@ -33,7 +63,7 @@
   }
 
   99% {
-    text-shadow: 5px 5px 0 #f7ce68, -5px 0 5px #fbab7e, 10px 5px 0 #e0c3fc;
+    text-shadow: 5px 5px 0 #f7ce68, 0 5px #fbab7e, 10px 5px 0 #e0c3fc;
   }
 
   100% {
