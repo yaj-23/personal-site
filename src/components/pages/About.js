@@ -10,6 +10,10 @@ function About() {
                 <h1 className='header'>
                     About Me
                 </h1>
+
+                <p1>I AM A SECOND YEAR
+                     COMPUTER ENGINEERING STUDENT STUDYING AT RYERSON UNIVERSITY, 
+                     SPECIALIZING IN COMPUTER ENGINEERING.</p1>
             </div>
         </>
     )
