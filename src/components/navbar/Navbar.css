@@ -11,7 +11,7 @@
   font-family: "Raleway", sans-serif;
 }
 .navbar.active {
-  background: #ffffff38;
+  background: #303030;
   transition: all 0.6s ease;
   color: white;
 }
@@ -57,18 +57,20 @@
 }
 
 .nav-links {
-  color: black;
+  color: white;
   display: flex;
   align-items: center;
   text-decoration: none;
   padding: 0.5rem 1rem;
   height: 100%;
   font-weight: 400;
+  transform: scale(1);
+  transition: all 0.3s ease;
 }
 
 .nav-links:hover {
   color: salmon;
-  transform: scale(1.2);
+  transform: scale(1.5);
   transition: all 0.3s ease;
 }
 
@@ -77,9 +79,6 @@
 }
 
 @media screen and (max-width: 960px) {
-  .navbar {
-    background-color: white;
-  }
   .nav-menu {
     display: flex;
     flex-direction: column;

@@ -4,21 +4,23 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  background: url("../images/Hero1.png");
+  background-color: #303030;
+  /*background: url("../images/Hero1.png");*/
   object-fit: contain;
   z-index: -1;
 }
 
 .greetings {
-  color: #303030;
-  font-size: 90px;
+  color: snow;
+  font-size: 100px;
   font-family: "Raleway", sans-serif;
   font-weight: 600;
-  margin-top: 150px;
+  margin-top: 200px;
   margin-left: 100px;
 }
+
 .name {
-  color: #303030;
+  color: snow;
   font-size: 65px;
   font-family: "Raleway", sans-serif;
   font-weight: 600;
@@ -43,10 +45,28 @@
   margin-right: 15px;
 }
 
+.anim {
+  margin-top: -250px;
+  width: 45%;
+  margin-left: 150px;
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+}
+
+.anim:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+
 @media screen and (max-width: 960px) {
+  .anim {
+    align-content: center;
+    margin-top: 15px;
+    margin-left: 0;
+    width: 65%;
+  }
   .hero-container {
     align-items: center;
-    background: url("../images/Tab_Hero.png");
   }
 
   .buttons {
@@ -62,6 +82,7 @@
   }
 
   .greetings {
+    margin-top: 80px;
     font-size: 70px;
   }
 
@@ -71,19 +92,23 @@
 }
 
 @media screen and (max-width: 768px) {
+  .anim {
+    width: 75%;
+  }
   .hero-container {
     align-items: center;
-    background: url("../images/Mobile_Hero.png");
   }
   .buttons {
     flex-direction: column;
     margin-top: 15px;
   }
   .greetings {
+    align-self: center;
     font-size: 50px;
   }
 
   .name {
-    font-size: 35px;
+    align-items: center;
+    font-size: 25px;
   }
 }

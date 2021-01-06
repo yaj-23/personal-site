@@ -1,0 +1,42 @@
+.about-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: snow;
+  object-fit: contain;
+  z-index: -1;
+}
+
+.header {
+  color: #303030;
+  font-family: "Raleway", sans-serif;
+  font-size: 100px;
+  margin-top: 200px;
+  margin-left: 100px;
+  font-weight: 600;
+  text-shadow: 0.05em 0 #f7ce68, -0.025em -0.05em 0 #fbab7e,
+    0.025em 0.05em 0 #e0c3fc;
+  animation: glitch 500ms infinite;
+}
+
+@keyframes glitch {
+  0% {
+    text-shadow: 5px -10px 0 #f7ce68, -5px 5px 0 #fbab7e, 5px 0 0 #e0c3fc;
+  }
+  49% {
+    text-shadow: 0 0 -5px #f7ce68, -10px 5px -10px #fbab7e, 5px 0 0 #e0c3fc;
+  }
+
+  50% {
+    text-shadow: 0 5px 0 #f7ce68, -15px 0 5px #fbab7e, 0 5px -10px #e0c3fc;
+  }
+
+  99% {
+    text-shadow: 5px 5px 0 #f7ce68, -5px 0 5px #fbab7e, 10px 5px 0 #e0c3fc;
+  }
+
+  100% {
+    text-shadow: 5px -10px 0 #f7ce68, 5px 0 10px #fbab7e, 0 0 5px #e0c3fc;
+  }
+}
