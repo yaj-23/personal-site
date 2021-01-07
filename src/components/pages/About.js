@@ -13,6 +13,7 @@ function About() {
 
     const animone = useRef(null)
 
+
     useEffect(() =>{
         lottie.loadAnimation({
             container : animone.current,
@@ -22,6 +23,10 @@ function About() {
             animationData: require('../about.json')
         })
     }, [] )
+
+    
+
+
     return (
         <>
             <div className="about-container">
@@ -37,7 +42,6 @@ function About() {
                     </p1>
 
                     
-                    <div className="animone" ref={animone}></div>
                 </div>  
 
                 <div className='buttons'>
@@ -46,6 +50,8 @@ function About() {
                             Contact Me
                         </Button>
                     </Link>
+
+                    <div className="animone" ref={animone}></div>
                 </div>
                 
             

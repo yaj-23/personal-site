@@ -12,7 +12,7 @@
   color: #303030;
   font-family: "Raleway", sans-serif;
   font-size: 100px;
-  margin-top: 200px;
+  margin-top: 150px;
   margin-left: 100px;
   font-weight: 600;
   text-shadow: 0.05em 0 #f7ce68, -0.025em -0.05em 0 #fbab7e,
@@ -22,13 +22,12 @@
 .cont {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-end;
 }
 .para-first {
   width: 100%;
   margin-top: 30px;
   margin-left: 100px;
-  margin-right: 100px;
   color: #303030;
   font-family: "Raleway", sans-serif;
   font-size: 25px;
@@ -36,9 +35,9 @@
 }
 
 .animone {
-  margin-right: 150px;
-  margin-top: -50px;
-  width: 70%;
+  margin-left: 100px;
+  margin-top: -70px;
+  width: 25%;
   transform: scale(1);
   transition: all 0.3s ease-in-out;
 }
@@ -47,9 +46,6 @@
   transition: all 0.3s ease-in-out;
 }
 
-.button-about {
-  margin-top: -150px;
-}
 @keyframes glitch {
   0% {
     text-shadow: 5px -10px 0 #f7ce68, -5px 5px 0 #fbab7e, 5px 0 0 #e0c3fc;
@@ -68,5 +64,36 @@
 
   100% {
     text-shadow: 5px -10px 0 #f7ce68, 5px 0 10px #fbab7e, 0 0 5px #e0c3fc;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .animone {
+    align-content: center;
+    margin-right: 100px;
+    margin-top: 15px;
+    margin-left: 0;
+    width: 45%;
+  }
+
+  .about-container {
+    align-items: center;
+  }
+  .header {
+    margin-left: 0px;
+    margin-top: 50px;
+    font-size: 70px;
+  }
+
+  .para-first {
+    margin-left: 10px;
+    font-size: 20px;
+    align-self: center;
+    padding-right: 50px;
+    text-align: center;
+  }
+  .button-about {
+    justify-content: center;
+    margin-right: 100px;
   }
 }
