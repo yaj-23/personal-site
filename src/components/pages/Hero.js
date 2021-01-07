@@ -15,7 +15,7 @@ function Hero() {
             renderer:'svg',
             loop: true,
             autoplay: true,
-            animationData: require('../computer.json')
+            animationData: require('../lottiefiles/computer.json')
         })
     }, [] )
 

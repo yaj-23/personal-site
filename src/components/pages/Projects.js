@@ -23,9 +23,7 @@ function Projects() {
                         <a href="https://github.com/yaj-23/reactjs" className="github-icon"> 
                             <FaGithub/>
                         </a>
-                        
                     </div>
-
                     <div className="section-two">
                         <div className='img-two'></div>
                         <a href="https://smartbus.vercel.app/" className='link-proj'>                        
@@ -38,7 +36,6 @@ function Projects() {
                             <FaGithub/>
                         </a>
                     </div>
-
                     <div className="section-three">
                         <div className='img-three'></div>
                         <h1 className='head-one'>Xplor To</h1>
@@ -51,7 +48,31 @@ function Projects() {
                         </a>
                     </div>
 
-            
+                    <div className='mobile-sec-one'>
+                        <h1 className='head-one'>Personal React Website</h1>
+                        <p1 className='desc-one'>Using React JS, HTML and CSS, created this completely responsive website.</p1>
+                        <a href="https://github.com/yaj-23/REC_2020_BUS_WebSite" className="github-icon"> 
+                            <FaGithub/>
+                        </a>
+                    </div>
+
+                    <div className='mobile-sec-one'>
+                        <h1 className='head-one'>REC Project Website</h1>
+                        <p1 className='desc-one'>Using React JS, HTML and CSS, created this website for
+                        Smart Bus Design which won 1st place for Juniour Design at Ryerson's Engineering Competition, 2020 </p1>
+                        
+                        <a href="https://github.com/yaj-23/REC_2020_BUS_WebSite" className="github-icon"> 
+                            <FaGithub/>
+                        </a>
+                    </div>
+
+                    <div className='mobile-sec-one'>
+                        <h1 className='head-one'>Xplor To</h1>
+                        <p1 className='desc-one'>Using Android Studio Framework, I created a  Restaurant/Food Shop Guide Application for Android users. </p1>
+                        <a href="https://github.com/yaj-23/REC_2020_BUS_WebSite" className="github-icon"> 
+                            <FaGithub/>
+                        </a>
+                    </div>
 
                 </div>
 

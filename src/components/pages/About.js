@@ -20,7 +20,7 @@ function About() {
             renderer:'svg',
             loop: true,
             autoplay: true,
-            animationData: require('../about.json')
+            animationData: require('../lottiefiles/about.json')
         })
     }, [] )
 

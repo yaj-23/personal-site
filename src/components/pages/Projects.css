@@ -177,6 +177,10 @@
   transition: all 0.3s ease-in-out;
 }
 
+.mobile-sec-one {
+  display: none;
+}
+
 @keyframes glitchone {
   0% {
     text-shadow: 5px -10px 0 #f7ce68, -5px 5px 0 gray, 5px 0 0 black;
@@ -195,5 +199,43 @@
 
   100% {
     text-shadow: 5px -10px 0 #f7ce68, 5px 0 10px gray, 0 0 5px black;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .projects-container {
+    height: min-content;
+  }
+  .sec-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .projects-header {
+    font-size: 70px;
+    margin-left: 0px;
+    margin-right: 0px;
+    align-self: center;
+  }
+  .section-one {
+    display: none;
+  }
+  .section-two {
+    display: none;
+  }
+  .section-three {
+    display: none;
+  }
+  .mobile-sec-one {
+    margin-top: 20px;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    max-width: 500px;
+    justify-self: center;
+    justify-content: space-around;
+    margin-right: 0px;
+    background-color: snow;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
   }
 }
