@@ -20,6 +20,22 @@
     0.025em 0.05em 0 #e0c3fc;
   animation: glitchone 500ms infinite;
 }
+.sec-container {
+  background-color: green;
+  display: flex;
+  flex-direction: row;
+}
+
+.section-one {
+  background-color: greenyellow;
+}
+.section-two {
+  background-color: orange;
+}
+.section-three {
+  background-color: pink;
+}
+
 @keyframes glitchone {
   0% {
     text-shadow: 5px -10px 0 #f7ce68, -5px 5px 0 gray, 5px 0 0 black;
