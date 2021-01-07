@@ -39,7 +39,7 @@ function Projects() {
                         </a>
                     </div>
 
-                    <div className="section-one">
+                    <div className="section-three">
                         <div className='img-three'></div>
                         <h1 className='head-one'>Xplor To</h1>
                         <p1 className='desc-two'>Using Android Studio Framework, I created a  Restaurant/ </p1>
