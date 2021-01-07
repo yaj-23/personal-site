@@ -1,5 +1,5 @@
 .projects-container {
-  height: 100vh;
+  height: 150vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -9,11 +9,14 @@
   z-index: -1;
 }
 
+.link-proj {
+  color: #303030;
+}
 .projects-header {
   color: white;
   font-family: "Raleway", sans-serif;
   font-size: 100px;
-  margin-top: 150px;
+  margin-top: 125px;
   margin-left: 100px;
   font-weight: 600;
   text-shadow: 0.05em 0 #f7ce68, -0.025em -0.05em 0 #fbab7e,
@@ -21,19 +24,145 @@
   animation: glitchone 500ms infinite;
 }
 .sec-container {
-  background-color: green;
   display: flex;
   flex-direction: row;
 }
 
 .section-one {
-  background-color: greenyellow;
+  margin-right: 20px;
+  margin-top: 20px;
+  max-width: 450px;
+  max-height: 700px;
+  object-fit: cover;
+  justify-self: center;
+  background-color: snow;
+  border: 2px solid none;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
 }
+
+.img-one {
+  margin-top: 20px;
+  background-image: url("../images/Frame1.png");
+  background-repeat: no-repeat;
+  margin-left: 58px;
+  width: 400px;
+  height: 300px;
+  display: flex;
+  border-radius: 100px;
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+}
+.head-one {
+  padding-bottom: 5px;
+  margin-left: 10px;
+  font-weight: bold;
+  margin-right: 10px;
+  border-radius: 30px;
+  margin-top: 20px;
+  color: #303030;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+}
+.head-one:hover {
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+  background-color: salmon;
+}
+.desc-one {
+  margin-left: 50px;
+  margin-right: 10px;
+  color: #303030;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+}
+.desc-one-one {
+  margin-left: 65px;
+  margin-right: 10px;
+  color: #303030;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+}
+
+.github-icon {
+  margin-top: 10px;
+  margin-left: 210px;
+  color: #303030;
+  padding-top: 10px;
+  font-family: "Raleway", sans-serif;
+  font-size: 35px;
+}
+
+.img-one:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+
 .section-two {
-  background-color: orange;
+  margin-right: 20px;
+  margin-top: 20px;
+  max-width: 450px;
+  object-fit: cover;
+  justify-self: center;
+  background-color: snow;
+  border: 2px solid none;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
 }
-.section-three {
-  background-color: pink;
+
+.desc-two {
+  margin-left: 20px;
+  margin-right: 10px;
+  color: #303030;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+}
+.desc-two-two {
+  margin-left: 20px;
+  margin-right: 10px;
+  color: #303030;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+}
+
+.img-two {
+  margin-top: 20px;
+  background-image: url("../images/Frame2.png");
+  background-repeat: no-repeat;
+  margin-left: 58px;
+  width: 400px;
+  height: 300px;
+  display: flex;
+  border-radius: 100px;
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+}
+.img-two:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.img-three {
+  margin-top: 20px;
+  background-image: url("../images/Frame3.png");
+  background-repeat: no-repeat;
+  margin-left: 58px;
+  width: 400px;
+  height: 300px;
+  display: flex;
+  border-radius: 100px;
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+}
+.img-three:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
 }
 
 @keyframes glitchone {
