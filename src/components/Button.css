@@ -52,7 +52,7 @@
 .btn-medium:hover,
 .btn-medium:hover {
   color: #303030;
-  background-color: #snow;
+  background-color: snow;
   transform: scale(1.2);
   transition: all 0.3s ease-out;
 }
