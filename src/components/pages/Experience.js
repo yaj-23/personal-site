@@ -1,7 +1,7 @@
 import React from 'react';
 import './Experience.css';
 import {FaGithub} from 'react-icons/fa';
-
+import {BsBoxArrowUpRight} from 'react-icons/bs';
 
 function Experience() {
     return (
@@ -26,13 +26,13 @@ function Experience() {
 
                         <br/>
                         <a href="https://github.com/yaj-23/reactjs" className="exp-github-icon"> 
-                            <FaGithub/>
+                            <BsBoxArrowUpRight/>
                         </a>
                     </div>
 
                     <div className="exp-section-two">
-                        <a href="/"><div className='exp-img-two'></div></a>
-                        <a href="http://yataradesigns.com/" className='exp-link-proj'>
+                        <a href="https://smartbus.vercel.app/"><div className='exp-img-two'></div></a>
+                        <a href="https://smartbus.vercel.app/" className='exp-link-proj'>
                             <h1 className='exp-head-two'>REC Junior Design</h1>
                         </a>
                         <p1 className='exp-desc-two'>Design Engineer</p1>
@@ -49,8 +49,8 @@ function Experience() {
                     </div>
 
                     <div className="exp-section-two">
-                        <a href="/"><div className='exp-img-three'></div></a>
-                        <a href="http://yataradesigns.com/" className='exp-link-proj'>
+                        <a href="https://cashandcell.com/"><div className='exp-img-three'></div></a>
+                        <a href="https://cashandcell.com/" className='exp-link-proj'>
                             <h1 className='exp-head-three'>Cash & Cell Mart</h1>
                         </a>
                         <p1 className='exp-desc-three'>Associate/Web Developer</p1>
@@ -62,23 +62,23 @@ function Experience() {
                         <p1 className='exp-desc-one'>Provided excellent customer service on a day-to-day basis.</p1>
         
                         <br/>
-                        <a href="https://github.com/yaj-23/reactjs" className="exp-github-icon"> 
-                            <FaGithub/>
+                        <a href="https://cashandcell.com/" className="exp-github-icon"> 
+                            <BsBoxArrowUpRight/>
                         </a>
                     </div>
                 </div>
 
                 <div className='exp-mobile-sec-one'>
-                    <h1 className='exp-head-one'>Yatara Design</h1>
+                    <a href="http://yataradesigns.com/"><h1 className='exp-head-one'>Yatara Design</h1></a>
                     <p1 className='exp-desc'>Co-Founder, Lead Developer/Designer</p1>
                     <p1 className='exp-desc-one'>Founded Yatara Designs, a web-dev agencey which design and develop complete, responsive websites. We completely take care of hosting services, professional email and logo creation.</p1>
-                    <a href="https://github.com/yaj-23/REC_2020_BUS_WebSite" className="exp-github-icon"> 
-                        <FaGithub/>
+                    <a href="http://yataradesigns.com/" className="exp-github-icon"> 
+                        <BsBoxArrowUpRight/>
                     </a>
                 </div>
 
                 <div className='exp-mobile-sec-one'>
-                    <h1 className='exp-head-one'>REC Junior Design</h1>
+                    <a href="https://smartbus.vercel.app/"><h1 className='exp-head-one'>REC Junior Design</h1></a>
                     <p1 className='exp-desc'>Design Engineer</p1>
                     <p1 className='exp-desc-one'>Competed in team of 4 at Ryerson Universities Biggest Engineering competition for Junior Design Challenge in 2020. We placed 1st for our Smart Bus Design, and will represnt Ryerson at OEC 2020 </p1>
                     <a href="https://github.com/yaj-23/REC_2020_BUS_WebSite" className="exp-github-icon"> 
@@ -87,11 +87,11 @@ function Experience() {
                 </div>
 
                 <div className='exp-mobile-sec-one'>
-                    <h1 className='exp-head-one'>Cash & Cell Mart</h1>
+                    <a href="https://cashandcell.com/"><h1 className='exp-head-one'>Cash & Cell Mart</h1></a>
                     <p1 className='exp-desc'>Associate/Web Developer</p1>
                     <p1 className='exp-desc-one'>Designed a responsive, modern, website using strong sense of HTML 5/CSS/WordPress, and created a Digital Image. Provided excellent customer service on a day-to-day basis. </p1>
-                    <a href="https://github.com/yaj-23/REC_2020_BUS_WebSite" className="exp-github-icon"> 
-                        <FaGithub/>
+                    <a href="https://cashandcell.com/" className="exp-github-icon"> 
+                        <BsBoxArrowUpRight/>
                     </a>
                 </div>
 
