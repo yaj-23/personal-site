@@ -1,6 +1,5 @@
 import React, {useEffect, useRef}from 'react';
 import {Link} from 'react-router-dom';
-
 import './About.css';
 import lottie from 'lottie-web';
 import {Button} from '../Button.js';
@@ -23,9 +22,6 @@ function About() {
             animationData: require('../lottiefiles/about.json')
         })
     }, [] )
-
-    
-
 
     return (
         <>
