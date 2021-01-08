@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/personalwebsite.github.io/static/css/main.5ef17fe0.chunk.css",
+    "main.js": "/personalwebsite.github.io/static/js/main.8d8daff2.chunk.js",
+    "main.js.map": "/personalwebsite.github.io/static/js/main.8d8daff2.chunk.js.map",
+    "runtime-main.js": "/personalwebsite.github.io/static/js/runtime-main.f7ff1bef.js",
+    "runtime-main.js.map": "/personalwebsite.github.io/static/js/runtime-main.f7ff1bef.js.map",
+    "static/js/2.e98c5927.chunk.js": "/personalwebsite.github.io/static/js/2.e98c5927.chunk.js",
+    "static/js/2.e98c5927.chunk.js.map": "/personalwebsite.github.io/static/js/2.e98c5927.chunk.js.map",
+    "index.html": "/personalwebsite.github.io/index.html",
+    "static/css/main.5ef17fe0.chunk.css.map": "/personalwebsite.github.io/static/css/main.5ef17fe0.chunk.css.map",
+    "static/js/2.e98c5927.chunk.js.LICENSE.txt": "/personalwebsite.github.io/static/js/2.e98c5927.chunk.js.LICENSE.txt",
+    "static/media/Projects.css": "/personalwebsite.github.io/static/media/Frame3.b6c69fc8.png",
+    "static/media/Experience.css": "/personalwebsite.github.io/static/media/Frame6.8d930e85.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f7ff1bef.js",
+    "static/js/2.e98c5927.chunk.js",
+    "static/css/main.5ef17fe0.chunk.css",
+    "static/js/main.8d8daff2.chunk.js"
+  ]
+}
