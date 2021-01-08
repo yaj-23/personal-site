@@ -8,7 +8,7 @@ function Experience() {
         <>
             <div className='experience-container'>
                 <h1 className='experience-header'>
-                    Work Experience
+                    Experience
                 </h1>
 
                 <div className="exp-container">
