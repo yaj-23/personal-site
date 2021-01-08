@@ -237,5 +237,6 @@
     background-color: snow;
     border-radius: 50px;
     transition: all 0.3s ease-in-out;
+    border-bottom: 1px solid #e0c3fc;
   }
 }
