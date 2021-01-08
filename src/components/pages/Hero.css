@@ -93,21 +93,30 @@
 
 @media screen and (max-width: 768px) {
   .anim {
+    margin-left: 0px;
+
+    align-items: center;
     width: 75%;
   }
   .hero-container {
     align-items: center;
   }
   .buttons {
+    margin-left: 0px;
+
+    align-items: center;
     flex-direction: column;
     margin-top: 15px;
   }
   .greetings {
+    margin-left: 0px;
     align-self: center;
     font-size: 50px;
   }
 
   .name {
+    margin-left: 0px;
+
     align-items: center;
     font-size: 25px;
   }
