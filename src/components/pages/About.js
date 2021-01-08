@@ -1,5 +1,5 @@
 import React, {useEffect, useRef}from 'react';
-import {Link} from 'react-router-dom';
+import {Link} from 'react-scroll';
 import './About.css';
 import lottie from 'lottie-web';
 import {Button} from '../Button.js';
@@ -25,7 +25,7 @@ function About() {
 
     return (
         <>
-            <div className="about-container">
+            <div className="about-container" id='about'>
                 <h1 className='header'>
                     About Me
                 </h1>
@@ -41,7 +41,7 @@ function About() {
                 </div>  
 
                 <div className='buttons'>
-                    <Link to='/'  className='button-about'>           
+                    <Link to='contact'  className='button-about' duration={100} smooth={true}>           
                         <Button buttonStyle='btn-primary' buttonColor='about' buttonSize='btn-medium'>
                             Contact Me
                         </Button>

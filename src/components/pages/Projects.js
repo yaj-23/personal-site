@@ -6,7 +6,7 @@ import {FaGithub} from 'react-icons/fa';
 function Projects() {
     return (
         <>
-            <div className="projects-container">
+            <div className="projects-container" id='projects'>
                 <h1 className='projects-header'>
                     Projects/> 
                 </h1>

@@ -9,16 +9,16 @@
 }
 
 .btn-primary {
-  background-color: white;
+  background-color: snow;
   color: #303030;
-  border: 1px solid white;
+  border: 1px solid snow;
 }
 
 .btn-secondary {
   background-color: transparent;
-  color: white;
+  color: snow;
   padding: 8px 20px;
-  border: 1px solid white;
+  border: 1px solid snow;
   transition: all 0.3s ease-out;
 }
 
@@ -41,10 +41,10 @@
   border-radius: 4px;
   width: 80%;
   font-size: 24px;
-  color: white;
+  color: snow;
   padding: 14px 20px;
   background-color: transparent;
-  border: 1px solid white;
+  border: 1px solid snow;
   transition: all 0.3s ease-out;
 }
 
@@ -52,7 +52,7 @@
 .btn-medium:hover,
 .btn-medium:hover {
   color: #303030;
-  background-color: #ffffff;
+  background-color: #snow;
   transform: scale(1.2);
   transition: all 0.3s ease-out;
 }

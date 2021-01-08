@@ -6,7 +6,7 @@ import {BsBoxArrowUpRight} from 'react-icons/bs';
 function Experience() {
     return (
         <>
-            <div className='experience-container'>
+            <div className='experience-container' id='experience'>
                 <h1 className='experience-header'>
                     Experience
                 </h1>

@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {Link} from 'react-router-dom';
+import {Link} from 'react-scroll';
 import logo from '../images/Logo2.png';
 import menubar from '../images/Hamburger_Menu.png';
 import menux from '../images/Hamburger_Close.png';
@@ -34,7 +34,7 @@ export default function Navbar() {
                 
                 <div className="navbar-container container"> {/* This is the Navbar Component Divisions like Logo and Links*/}
                     
-                    <Link to='/' className='navbar-logo'>{/* This is the Logo Component, imports sourse from images*/}
+                    <Link to='home' className='navbar-logo' duration={800} smooth={true}>{/* This is the Logo Component, imports sourse from images*/}
                         <img src={logo} alt=""/>
                     </Link>
 
@@ -46,31 +46,31 @@ export default function Navbar() {
 
                 <ul className = {click ? 'nav-menu active' : 'nav-menu'}> {/* If menu is active, show css for that, otherwise remain the normal css for menu items*/}
                     <li className='nav-item'> {/*  So basically ythis is the links, css is done for all those wjho are not clicked*/}
-                        <Link to='/' className='nav-links'>
+                        <Link to='home' className='nav-links' duration={800} smooth={true} >
                             Home
                         </Link>
                     </li>
 
                     <li className='nav-item'> {/*  So basically ythis is the links, css is done for all those wjho are not clicked*/}
-                        <Link to='/' className='nav-links'>
+                        <Link to='about' className='nav-links' duration={800} smooth={true}>
                             About
                         </Link>
                     </li>
 
                     <li className='nav-item'> {/*  So basically ythis is the links, css is done for all those wjho are not clicked*/}
-                        <Link to='/' className='nav-links'>
-                            Experience
-                        </Link>
-                    </li>
-
-                    <li className='nav-item'> {/*  So basically ythis is the links, css is done for all those wjho are not clicked*/}
-                        <Link to='/' className='nav-links'>
+                        <Link to='projects' className='nav-links' duration={800} smooth={true}>
                             Projects
                         </Link>
                     </li>
 
                     <li className='nav-item'> {/*  So basically ythis is the links, css is done for all those wjho are not clicked*/}
-                        <Link to='/' className='nav-links'>
+                        <Link to='experience' className='nav-links' duration={800} smooth={true}>
+                            Experience
+                        </Link>
+                    </li>
+
+                    <li className='nav-item'> {/*  So basically ythis is the links, css is done for all those wjho are not clicked*/}
+                        <Link to='contact' className='nav-links' duration={800} smooth={true}>
                             Contact
                         </Link>
                     </li>
