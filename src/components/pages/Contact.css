@@ -1,0 +1,107 @@
+.contact-container {
+  margin-top: 50px;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #303030;
+  object-fit: contain;
+  z-index: -1;
+}
+.contact-header {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 100px;
+  margin-top: 125px;
+  margin-left: 100px;
+  font-weight: 600;
+  text-shadow: 0.05em 0 #f7ce68, -0.025em -0.05em 0 #fbab7e,
+    0.025em 0.05em 0 #e0c3fc;
+  animation: glitchone 500ms infinite;
+}
+.sent {
+  color: snow;
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  margin-left: 100px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  font-size: 50px;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+.linkedin {
+  color: snow;
+  margin-right: 10px;
+  border-radius: 20px;
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+}
+.linkedin:hover {
+  color: salmon;
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+.insta {
+  color: snow;
+  margin-right: 10px;
+  border-radius: 20px;
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+}
+.insta:hover {
+  color: salmon;
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+.messenger {
+  color: snow;
+  margin-right: 10px;
+  border-radius: 20px;
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+}
+.messenger:hover {
+  color: salmon;
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+.git {
+  color: snow;
+  margin-right: 10px;
+  border-radius: 20px;
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+}
+.git:hover {
+  color: salmon;
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+@media screen and (max-width: 960px) {
+  .contact-container {
+    min-height: max-content;
+    margin-top: 300px;
+  }
+  .contact-header {
+    margin-top: 20px;
+    font-size: 70px;
+    margin-left: 0px;
+    margin-right: 0px;
+    align-self: center;
+  }
+  .sent {
+    margin-left: 0px;
+    align-self: center;
+    margin-top: 0px;
+    font-size: 25px;
+  }
+  .icons {
+    margin-left: 0px;
+    align-self: center;
+  }
+}
