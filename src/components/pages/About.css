@@ -70,19 +70,22 @@
 @media screen and (max-width: 960px) {
   .animone {
     align-content: center;
-    margin-right: 100px;
     margin-top: 15px;
     margin-left: 0;
     width: 45%;
+
+    align-items: center;
   }
 
   .about-container {
     align-items: center;
+    height: min-content;
   }
   .header {
     margin-left: 0px;
     margin-top: 50px;
     font-size: 70px;
+    align-items: center;
   }
 
   .para-first {
@@ -94,6 +97,8 @@
   }
   .button-about {
     justify-content: center;
-    margin-right: 100px;
+    margin-left: 0px;
+
+    align-items: center;
   }
 }
