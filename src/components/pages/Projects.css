@@ -102,18 +102,6 @@
   transition: all 0.3s ease-in-out;
 }
 
-.section-two {
-  margin-right: 20px;
-  margin-top: 20px;
-  max-width: 400px;
-  object-fit: cover;
-  justify-self: center;
-  background-color: snow;
-  border: 2px solid none;
-  border-radius: 50px;
-  transition: all 0.3s ease-in-out;
-}
-
 .desc-two {
   margin-left: 20px;
   margin-right: 10px;
@@ -145,18 +133,6 @@
 }
 .img-two:hover {
   transform: scale(1.1);
-  transition: all 0.3s ease-in-out;
-}
-
-.section-three {
-  margin-right: 20px;
-  margin-top: 20px;
-  max-width: 400px;
-  object-fit: cover;
-  justify-self: center;
-  background-color: snow;
-  border: 2px solid none;
-  border-radius: 50px;
   transition: all 0.3s ease-in-out;
 }
 

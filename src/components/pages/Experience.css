@@ -29,18 +29,6 @@
   transition: all 0.3s ease-in-out;
 }
 
-.exp-section-two {
-  margin-right: 20px;
-  margin-top: 20px;
-  max-width: 400px;
-  height: max-content;
-  justify-self: center;
-  background-color: #303030;
-  border: 2px solid none;
-  border-radius: 50px;
-  transition: all 0.3s ease-in-out;
-}
-
 .exp-head-one {
   padding-bottom: 5px;
   margin-left: 10px;
