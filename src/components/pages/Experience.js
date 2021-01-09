@@ -19,10 +19,11 @@ function Experience() {
                         </a>
                         <p1 className='exp-desc'>Co-Founder, Lead Developer/Designer</p1>
                         <br/>
-                        <p1 className='exp-desc-one'>Founded Yatara Designs, a web-dev agencey which design and </p1>
-                        <p1 className='exp-desc-one'>develop complete, responsive websites. We completely take</p1>
+                        <p1 className='exp-desc-one'>Founded Yatara Designs, a web-dev agencey which design</p1>
                         <br/>
-                        <p1 className='exp-desc-one'>care of hosting services, professional email and logo creation.</p1>
+                        <p1 className='exp-desc-one'>and develop complete, responsive websites. We take</p1>
+                        <br/>
+                        <p1 className='exp-desc-one'>care of hosting services, professional logo creation.</p1>
 
                         <br/>
                         <a href="https://github.com/yaj-23/reactjs" className="exp-github-icon"> 
@@ -30,17 +31,18 @@ function Experience() {
                         </a>
                     </div>
 
-                    <div className="exp-section-two">
+                    <div className="exp-section-one">
                         <a href="https://smartbus.vercel.app/"><div className='exp-img-two'></div></a>
                         <a href="https://smartbus.vercel.app/" className='exp-link-proj'>
                             <h1 className='exp-head-two'>REC Junior Design</h1>
                         </a>
                         <p1 className='exp-desc-two'>Design Engineer</p1>
                         <br/>
-                        <p1 className='exp-desc-one'>Competed in team of 4 at Ryerson Universities Biggest Engineering </p1>
-                        <p1 className='exp-desc-one'>competition for Junior Design Challenge in 2020. We placed 1st </p1>
+                        <p1 className='exp-desc-one'>Competed in team of 4 at Ryerson Universities Biggest</p1>
                         <br/>
-                        <p1 className='exp-desc-one'> for our Smart Bus Design, and will represnt Ryerson at OEC 2020</p1>
+                        <p1 className='exp-desc-one'>Engineering competition for Junior Design Challenge in</p1>
+                        <br/>
+                        <p1 className='exp-desc-one'>2020, where we placed 1st  for our Smart Bus Design,</p1>
         
                         <br/>
                         <a href="https://github.com/yaj-23/reactjs" className="exp-github-icon"> 
@@ -48,18 +50,18 @@ function Experience() {
                         </a>
                     </div>
 
-                    <div className="exp-section-two">
+                    <div className="exp-section-one">
                         <a href="https://cashandcell.com/"><div className='exp-img-three'></div></a>
                         <a href="https://cashandcell.com/" className='exp-link-proj'>
                             <h1 className='exp-head-three'>Cash & Cell Mart</h1>
                         </a>
                         <p1 className='exp-desc-three'>Associate/Web Developer</p1>
                         <br/>
-                        <p1 className='exp-desc-one'>Designed a responsive, modern, website using strong sense of </p1>
+                        <p1 className='exp-desc-one'>Designed a responsive, modern, website using strong</p1>
                         <br/>
-                        <p1 className='exp-desc-one'>HTML 5/CSS/WordPress, and created a Digital Image.</p1>
+                        <p1 className='exp-desc-one'>sense of WordPress Design, and created a Digital Image.</p1>
                         <br/>
-                        <p1 className='exp-desc-one'>Provided excellent customer service on a day-to-day basis.</p1>
+                        <p1 className='exp-desc-one'>Provided excellent service on a day-to-day basis.</p1>
         
                         <br/>
                         <a href="https://cashandcell.com/" className="exp-github-icon"> 

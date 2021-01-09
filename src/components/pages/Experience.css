@@ -13,14 +13,14 @@
 
 .exp-container {
   display: flex;
-  flex-direction: row;
 }
+
 .exp-section-one {
+  margin-left: 20px;
   margin-right: 20px;
   margin-top: 20px;
-  max-width: 450px;
+  max-width: 400px;
   height: max-content;
-  object-fit: cover;
   justify-self: center;
   background-color: #303030;
   border: 2px solid none;
@@ -31,9 +31,8 @@
 .exp-section-two {
   margin-right: 20px;
   margin-top: 20px;
-  max-width: 450px;
+  max-width: 400px;
   height: max-content;
-  object-fit: cover;
   justify-self: center;
   background-color: #303030;
   border: 2px solid none;
@@ -97,8 +96,7 @@
 }
 .exp-desc {
   padding-bottom: 5px;
-  margin-left: 50px;
-  margin-right: 10px;
+  margin-left: 10px;
   color: snow;
   font-weight: 400;
   font-size: 20px;
@@ -107,7 +105,7 @@
 }
 .exp-desc-two {
   padding-bottom: 5px;
-  margin-left: 150px;
+  margin-left: 100px;
   margin-right: 10px;
   color: snow;
   font-weight: 400;
@@ -141,8 +139,8 @@
   margin-top: 20px;
   background-image: url("../images/Frame4.png");
   background-repeat: no-repeat;
-  margin-left: 58px;
-  width: 400px;
+  margin-left: 25px;
+  width: 350px;
   height: 300px;
   display: flex;
   border-radius: 100px;
@@ -154,8 +152,8 @@
   margin-top: 20px;
   background-image: url("../images/Frame5.png");
   background-repeat: no-repeat;
-  margin-left: 58px;
-  width: 400px;
+  margin-left: 12px;
+  width: 350px;
   height: 300px;
   display: flex;
   border-radius: 100px;
@@ -167,8 +165,8 @@
   margin-top: 20px;
   background-image: url("../images/Frame6.png");
   background-repeat: no-repeat;
-  margin-left: 58px;
-  width: 400px;
+  margin-left: 25px;
+  width: 350px;
   height: 300px;
   display: flex;
   border-radius: 100px;
