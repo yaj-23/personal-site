@@ -32,7 +32,7 @@ function About() {
                 <div className='cont'>
                     <p1 className="para-first">I am an upcoming software enthusiast based in Toronto, Canada. 
                         I am currently in my second year in Computer Engineering at
-                        Ryerson University located in the heart of downtown Toronto.I'm a huge basketball fanatic,
+                        Ryerson University located in the heart of downtown Toronto. I'm a huge basketball fanatic,
                         I enjoy competing in fantasy leagues with friends. Few things about me everyone should know
                         I'm a sucker for modern and sleek design, and I love learning new ways to test and apply knowledge.
                     </p1>

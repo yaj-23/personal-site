@@ -37,7 +37,7 @@
 .animone {
   margin-left: 100px;
   margin-top: -70px;
-  width: 25%;
+  width: 20%;
   transform: scale(1);
   transition: all 0.3s ease-in-out;
 }
