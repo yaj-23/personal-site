@@ -25,7 +25,7 @@ function Projects() {
                             <FaGithub/>
                         </a>
                     </div>
-                    <div className="section-two">
+                    <div className="section-one">
                         <div className='img-two'></div>
                         <a href="https://smartbus.vercel.app/" className='link-proj'>                        
                             <h1 className='head-one'>REC Project Website</h1>
@@ -37,7 +37,7 @@ function Projects() {
                             <FaGithub/>
                         </a>
                     </div>
-                    <div className="section-three">
+                    <div className="section-one">
                         <div className='img-three'></div>
                         <h1 className='head-one'>Xplor To</h1>
                         <p1 className='desc-two'>Using Android Studio Framework, I created a  </p1>
