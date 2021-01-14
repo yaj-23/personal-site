@@ -60,7 +60,7 @@ function Projects() {
                     <div className='mobile-sec-one'>
                         <h1 className='head-one'>REC Project Website</h1>
                         <p1 className='desc-one'>Using React JS, HTML and CSS, created this website for
-                        Smart Bus Design which won 1st place for Juniour Design at Ryerson's Engineering Competition, 2020 </p1>
+                        Smart Bus Design which won 1st place for Junior Design at Ryerson's Engineering Competition, 2020 </p1>
                         
                         <a href="https://github.com/yaj-23/REC_2020_BUS_WebSite" className="github-icon"> 
                             <FaGithub/>

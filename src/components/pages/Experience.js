@@ -73,7 +73,7 @@ function Experience() {
                 <div className='exp-mobile-sec-one'>
                     <a href="http://yataradesigns.com/"><h1 className='exp-head-one'>Yatara Design</h1></a>
                     <p1 className='exp-desc'>Co-Founder, Lead Developer/Designer</p1>
-                    <p1 className='exp-desc-one'>Founded Yatara Designs, a web-dev agencey which design and develop complete, responsive websites. We completely take care of hosting services, professional email and logo creation.</p1>
+                    <p1 className='exp-desc-one'>Founded Yatara Designs, a web-dev agency  which design and develop complete, responsive websites. We completely take care of hosting services, professional email and logo creation.</p1>
                     <a href="http://yataradesigns.com/" className="exp-github-icon"> 
                         <BsBoxArrowUpRight/>
                     </a>
@@ -82,7 +82,7 @@ function Experience() {
                 <div className='exp-mobile-sec-one'>
                     <a href="https://smartbus.vercel.app/"><h1 className='exp-head-one'>REC Junior Design</h1></a>
                     <p1 className='exp-desc'>Design Engineer</p1>
-                    <p1 className='exp-desc-one'>Competed in team of 4 at Ryerson Universities Biggest Engineering competition for Junior Design Challenge in 2020. We placed 1st for our Smart Bus Design, and will represnt Ryerson at OEC 2020 </p1>
+                    <p1 className='exp-desc-one'>Competed in team of 4 at Ryerson University's Biggest Engineering competition for Junior Design Challenge in 2020. We placed 1st for our Smart Bus Design, and will represnt Ryerson at OEC 2020 </p1>
                     <a href="https://github.com/yaj-23/REC_2020_BUS_WebSite" className="exp-github-icon"> 
                         <FaGithub/>
                     </a>
