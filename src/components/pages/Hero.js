@@ -1,6 +1,5 @@
 import React, {useEffect, useRef} from 'react';
 import {Link} from 'react-scroll';
-
 import './Hero.css';
 import {Button} from '../Button.js';
 import lottie from 'lottie-web';

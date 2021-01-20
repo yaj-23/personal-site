@@ -1,7 +1,8 @@
 import Hero from './components/pages/Hero';
+import Cards from './components/cards/Cards';
+
 import About from './components/pages/About';
 import Projects from './components/pages/Projects';
-import Experience from './components/pages/Experience';
 import Contact from './components/pages/Contact';
 
 
@@ -10,10 +11,10 @@ function Home() {
     return (
       <>
         <Hero/>
-        <About/>
+        <About/> 
         <Projects/>
-        <Experience/>
-        <Contact/>
+        <Cards/>
+        <Contact/> 
       </>
     );
   }
