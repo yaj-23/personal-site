@@ -1,17 +1,17 @@
-.cards {
+.cards-one {
   padding: 4rem;
-  background: #303030;
+  background: snow;
 }
 
-.cards_header {
-  color: snow;
+.cards_header-one {
+  color: #303030;
   font-family: "Raleway", sans-serif;
   font-size: 100px;
   text-align: center;
   margin-top: 0;
 }
 
-.cards__container {
+.cards__container-one {
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -20,42 +20,47 @@
   margin: 0 auto;
 }
 
-.cards__wrapper {
+.cards__wrapper-one {
   position: relative;
   margin: 50px 0 45px;
 }
 
-.cards__items {
+.cards__items-one {
   margin-bottom: 24px;
 }
 
-.cards__item {
+.cards__item-one {
   padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
   display: flex;
   flex: 1;
   margin: 0 1rem;
   border-radius: 30px;
-  background-color: snow;
-  box-shadow: 0 2px 10px salmon;
+  background-color: #303030;
+  box-shadow: 0 3px 10px salmon;
   transform: scale(1);
   transition: 0.6s all ease-in-out;
 }
 
-.cards__item:hover {
+.cards__item-one:hover {
   transform: scale(1.1);
   transition: 0.6s all ease-in-out;
 }
 
-.cards__item__link {
+.cards__item__link-one {
   display: flex;
   flex-flow: column;
   width: 100%;
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
   border-radius: 10px;
   overflow: hidden;
   text-decoration: none;
 }
 
-.cards__item__pic-wrap {
+.cards__item__pic-wrap-one {
   position: relative;
   width: 100%;
   padding-top: 60%;
@@ -67,7 +72,7 @@
   animation-duration: 2s;
 }
 
-.cards__item__img {
+.cards__item__img-one {
   position: absolute;
   top: 0;
   right: 0;
@@ -82,28 +87,28 @@
   transition: all 0.2s linear;
 }
 
-.cards__item__img:hover {
+.cards__item__img-one:hover {
   transform: scale(1.1);
 }
 
-.cards__item__info {
+.cards__item__info-one {
   padding: 30px 20px 20px;
 }
 
-.cards__item__header {
+.cards__item__header-one {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
-  color: black;
+  color: snow;
   font-size: 2rem;
   line-height: 25px;
   padding-bottom: 3%;
   text-align: center;
 }
 
-.cards__item__text {
+.cards__item__text-one {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
-  color: black;
+  color: snow;
   font-size: 1rem;
   line-height: 25px;
   padding-bottom: 3%;
@@ -117,13 +122,13 @@
 }
 
 @media only screen and (min-width: 1024px) {
-  .cards__items {
+  .cards__items-one {
     display: flex;
   }
 }
 
 @media only screen and (max-width: 1024px) {
-  .cards__item {
+  .cards__item-one {
     margin-bottom: 2rem;
   }
 }

@@ -30,9 +30,7 @@ function Projects() {
                         <a href="https://smartbus.vercel.app/" className='link-proj'>                        
                             <h1 className='head-one'>REC Project Website</h1>
                         </a>
-                        <p1 className='desc-two'>Using React JS created this website for Smart Bus</p1>
-                        <p1 className='desc-two-two'> Design which won 1st place for Juniour Design </p1>
-                        <p1 className='desc-two'> at Ryerson's Engineering Competition, 2020</p1>
+                        <p1 className='desc-two'>Using React JS created this website for Smart Bus Design which won 1st place for Juniour Design </p1> Ryerson's Engineering Competition, 2020</p1>
                         <a href="https://github.com/yaj-23/REC_2020_BUS_WebSite" className="github-icon"> 
                             <FaGithub/>
                         </a>
