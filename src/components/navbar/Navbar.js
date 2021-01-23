@@ -58,14 +58,15 @@ export default function Navbar() {
                     </li>
 
                     <li className='nav-item'> {/*  So basically ythis is the links, css is done for all those wjho are not clicked*/}
-                        <Link to='projects' className='nav-links' duration={800} smooth={true}>
-                            Projects
+                        <Link to='experience' className='nav-links' duration={800} smooth={true}>
+                            Experience
+                            
                         </Link>
                     </li>
 
                     <li className='nav-item'> {/*  So basically ythis is the links, css is done for all those wjho are not clicked*/}
-                        <Link to='experience' className='nav-links' duration={800} smooth={true}>
-                            Experience
+                        <Link to='projects' className='nav-links' duration={800} smooth={true}>
+                            Projects
                         </Link>
                     </li>
 
