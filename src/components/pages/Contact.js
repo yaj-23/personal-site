@@ -10,7 +10,7 @@ function Contact() {
                     Contact Me
                 </h1>
 
-                <p className="sent">Hit Me Up If U Want To Connect!</p> 
+                <p className="sent">Hit Me Up @</p> 
                 <div className="icons">
                     <a href="https://www.linkedin.com/in/yajurva-trivedi/"><FaLinkedin className='linkedin'/></a>
                     <a href="https://www.instagram.com/tri_yajurva/"><FaInstagram className='insta'/></a>
