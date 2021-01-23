@@ -94,21 +94,18 @@
     height: min-content;
   }
   .header {
-    margin-left: 0px;
-    margin-top: 50px;
-    font-size: 70px;
+    font-size: 4rem;
     align-items: center;
   }
 
   .para-first {
-    margin-left: 10px;
     font-size: 20px;
     align-self: center;
-    padding-right: 50px;
     text-align: center;
+    padding-bottom: 15px;
   }
-  .button-about {
+  .buttons {
     justify-content: center;
-    margin-left: 0px;
+    padding-bottom: 15px;
   }
 }

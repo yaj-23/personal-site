@@ -56,63 +56,43 @@
 @media screen and (max-width: 960px) {
   .anim {
     align-content: center;
-    margin-top: 15px;
-    margin-left: 0;
+
     width: 45%;
-  }
-  .hero-container {
-    align-items: center;
   }
 
   .buttons {
+    padding-top: 10px;
     flex-direction: column;
-    margin-top: 15px;
     align-items: center;
-  }
-  .button-two {
-    padding-top: 15px;
-  }
-  .button-three {
-    padding-top: 15px;
   }
 
   .greetings {
-    margin-top: 80px;
-    font-size: 70px;
+    margin-top: 10%;
+    font-size: 6rem;
   }
 
   .name {
-    font-size: 45px;
+    font-size: 3rem;
+    margin-bottom: 3%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .anim {
-    margin-left: 0px;
-
     align-items: center;
     width: 75%;
   }
-  .hero-container {
-    align-items: center;
-  }
-  .buttons {
-    margin-left: 0px;
 
-    align-items: center;
-    flex-direction: column;
-    margin-top: 15px;
+  .buttons {
+    padding-top: 20px;
   }
   .greetings {
-    margin-left: 0px;
-    align-self: center;
-    font-size: 50px;
+    margin-top: 10%;
+    font-size: 5rem;
   }
 
   .name {
-    margin-left: 0px;
-
-    align-items: center;
-    font-size: 25px;
+    font-size: 2rem;
+    margin-bottom: 3%;
   }
 }

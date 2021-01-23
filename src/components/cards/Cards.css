@@ -6,7 +6,7 @@
 .cards_header {
   color: snow;
   font-family: "Raleway", sans-serif;
-  font-size: 100px;
+  font-size: 7rem;
   text-align: center;
   margin-top: 0;
 }
@@ -121,5 +121,15 @@
 @media only screen and (max-width: 1024px) {
   .cards__item {
     margin-bottom: 2rem;
+  }
+}
+@media screen and (max-width: 960px) {
+  .cards_header {
+    font-size: 5rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cards_header {
+    font-size: 4rem;
   }
 }
