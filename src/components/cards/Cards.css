@@ -1,6 +1,6 @@
 .cards {
   padding: 4rem;
-  background: #303030;
+  background: #000000;
 }
 
 .cards_header {
@@ -43,7 +43,7 @@
 
 .cards__item:hover {
   transform: scale(1.1);
-  transition: 0.6s all ease-in-out;
+  transition: 0.5s all ease-in-out;
 }
 
 .cards__item__link {
@@ -80,10 +80,6 @@
   max-height: 100%;
   object-fit: cover;
   transition: all 0.2s linear;
-}
-
-.cards__item__img:hover {
-  transform: scale(1.1);
 }
 
 .cards__item__info {

@@ -4,7 +4,7 @@
 }
 
 .cards_header-one {
-  color: #303030;
+  color: #000000;
   font-family: "Raleway", sans-serif;
   font-size: 100px;
   text-align: center;
@@ -37,7 +37,7 @@
   flex: 1;
   margin: 0 1rem;
   border-radius: 30px;
-  background-color: #303030;
+  background-color: #000000;
   box-shadow: 0 3px 10px salmon;
   transform: scale(1);
   transition: 0.6s all ease-in-out;
@@ -45,7 +45,7 @@
 
 .cards__item-one:hover {
   transform: scale(1.1);
-  transition: 0.6s all ease-in-out;
+  transition: 0.5s all ease-in-out;
 }
 
 .cards__item__link-one {
@@ -85,10 +85,6 @@
   max-height: 100%;
   object-fit: cover;
   transition: all 0.2s linear;
-}
-
-.cards__item__img-one:hover {
-  transform: scale(1.1);
 }
 
 .cards__item__info-one {

@@ -4,7 +4,7 @@ import './Button.css';
 
 const STYLES = ['btn-primary', 'btn-secondary']
 const SIZES = ['btn-medium' , 'btn-large' , 'btn-mobile']
-const COLOR = ['primary', 'secondary']
+const COLOR = ['primary', 'secondary', 'skills']
 
 export const Button = ( {
     children,

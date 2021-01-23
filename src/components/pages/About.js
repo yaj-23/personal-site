@@ -30,24 +30,44 @@ function About() {
                     About Me
                 </h1>
                 <div className='cont'>
-                    <p1 className="para-first">I am an upcoming software enthusiast based in Toronto, Canada. 
-                        I am currently in my second year in Computer Engineering at
-                        Ryerson University located in the heart of downtown Toronto. I'm a huge basketball fanatic,
-                        I enjoy competing in fantasy leagues with friends. Few things about me everyone should know
-                        I'm a sucker for modern and sleek design, and I love learning new ways to test and apply knowledge.
+                    <p1 className="para-first">Hey everyone, I am Yajurva Trivedi, a Computer Engineering student in my second year at Ryerson University. 
+                    I am an aspiring software enthusiast and always a sucker getting exposed to new technologies.I enjoy cooking and making recipes by experimenting with cuisines from around the world. 
+                    For those who know me, I enjoy watching anime , and of course the NBA. I enjoy playing basketball, competing in fantasy leagues despite the questionable drafts and pickups.
                     </p1>
 
                     
                 </div>  
-
+                
                 <div className='buttons'>
                     <Link to='contact'  className='button-about' duration={100} smooth={true}>           
                         <Button buttonStyle='btn-primary' buttonColor='about' buttonSize='btn-medium'>
                             Contact Me
                         </Button>
                     </Link>
+                </div>
+                
+                <h3 className="about_skills">Proficient In</h3>
 
-                    <div className="animone" ref={animone}></div>
+                <div className='skills_container'>
+                        <Button classname='but' buttonStyle='btn-primary' buttonColor='skill' buttonSize='btn-medium'>
+                            React / JS
+                        </Button>
+
+                        <Button buttonStyle='btn-primary' buttonColor='skill' buttonSize='btn-medium'>
+                            Java
+                        </Button>
+
+                        <Button buttonStyle='btn-primary' buttonColor='skill' buttonSize='btn-medium'>
+                            Android Studio / XML
+                        </Button>
+
+                        <Button buttonStyle='btn-primary' buttonColor='skill' buttonSize='btn-medium'>
+                            Python
+                        </Button>
+
+                        <Button buttonStyle='btn-primary' buttonColor='skill' buttonSize='btn-medium'>
+                            C
+                        </Button>
                 </div>
                 
             
