@@ -25,7 +25,7 @@ function Hero() {
                 <h1 className="greetings">Greetings</h1>
                 <p className="name">I'm Yajurva Trivedi</p>
                 
-                <div className='buttons'>
+                <div className='buttons_hero'>
                     <Link to='about' className='button-one'  duration={800} smooth={true}>                
                         <Button buttonStyle='btn-primary' buttonColor='primary' buttonSize='btn-medium'>
                             About Me
@@ -43,10 +43,8 @@ function Hero() {
                             Contact Me
                         </Button>
                     </Link>
-                    
-                    <div className="anim" ref={anim}></div>
-
                 </div>
+                 <div className="anim" ref={anim}></div>*
 
                 
             </div>            

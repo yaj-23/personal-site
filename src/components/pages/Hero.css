@@ -1,37 +1,32 @@
 .hero-container {
   margin-top: -80px;
-  height: 100vh;
-  width: 100%;
+  padding: 5rem;
   display: flex;
   flex-direction: column;
-  background-color: #303030;
-  /*background: url("../images/Hero1.png");*/
-  object-fit: contain;
-  z-index: -1;
+  background-color: black;
 }
 
 .greetings {
-  color: snow;
-  font-size: 100px;
+  text-align: center;
+  color: white;
+  font-size: 8rem;
   font-family: "Raleway", sans-serif;
   font-weight: 600;
-  margin-top: 200px;
-  margin-left: 100px;
 }
 
 .name {
+  text-align: center;
   color: snow;
-  font-size: 65px;
+  font-size: 4rem;
   font-family: "Raleway", sans-serif;
   font-weight: 600;
-  margin-left: 100px;
 }
 
-.buttons {
+.buttons_hero {
+  margin-top: 2%;
+  justify-content: center;
   display: flex;
   flex-direction: row;
-  margin-left: 100px;
-  margin-top: 50px;
 }
 
 .button-one {
@@ -46,9 +41,9 @@
 }
 
 .anim {
-  margin-top: -250px;
-  width: 45%;
-  margin-left: 150px;
+  margin-top: 1%;
+  align-self: center;
+  width: 37%;
   transform: scale(1);
   transition: all 0.3s ease-in-out;
 }
