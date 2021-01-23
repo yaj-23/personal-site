@@ -39,7 +39,7 @@ function About() {
                 </div>  
                 
                 <div className='buttons'>
-                    <Link to='contact'  className='button-about' duration={100} smooth={true}>           
+                    <Link to='contact'  className='button-about' duration={800} smooth={true}>           
                         <Button buttonStyle='btn-primary' buttonColor='about' buttonSize='btn-medium'>
                             Contact Me
                         </Button>
