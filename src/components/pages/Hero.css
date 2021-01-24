@@ -61,12 +61,22 @@
     width: 45%;
   }
 
-  .buttons {
+  .buttons_hero {
     padding-top: 10px;
     flex-direction: column;
     align-items: center;
   }
+  .button-one {
+    padding-top: 10px;
+  }
+  .button-two {
+    padding-top: 10px;
+  }
 
+  .button-three {
+    padding-top: 10px;
+    padding-button: 10px;
+  }
   .greetings {
     margin-top: 10%;
     font-size: 4rem;
