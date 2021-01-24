@@ -50,6 +50,7 @@
   list-style: none;
   text-align: center;
   justify-content: flex-start;
+  padding-right: 50px;
 }
 
 .nav-item {
