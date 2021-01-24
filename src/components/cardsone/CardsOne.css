@@ -130,11 +130,11 @@
 }
 @media screen and (max-width: 960px) {
   .cards_header-one {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 }
 @media screen and (max-width: 768px) {
   .cards_header-one {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
