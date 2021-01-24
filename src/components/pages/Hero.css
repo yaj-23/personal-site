@@ -75,9 +75,9 @@
 
   .button-three {
     padding-top: 10px;
-    padding-button: 10px;
   }
   .greetings {
+    justify-content: center;
     margin-top: 10%;
     font-size: 4rem;
   }
@@ -95,11 +95,12 @@
   }
 
   .buttons {
+    justify-content: center;
     padding-top: 20px;
   }
   .greetings {
     margin-top: 10%;
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
 
   .name {
