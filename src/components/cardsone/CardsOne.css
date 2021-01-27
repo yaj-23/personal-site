@@ -9,6 +9,7 @@
   font-size: 100px;
   text-align: center;
   margin-top: 0;
+  text-decoration: underline #f5576c;
 }
 
 .cards__container-one {
@@ -38,7 +39,7 @@
   margin: 0 1rem;
   border-radius: 30px;
   background-color: #000000;
-  box-shadow: 0 3px 10px salmon;
+  box-shadow: 0 3px 10px #f5576c;
   transform: scale(1);
   transition: 0.6s all ease-in-out;
 }

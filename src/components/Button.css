@@ -53,54 +53,54 @@
 }
 
 .primary {
-  background-color: #e0c3fc;
-  color: #303030;
+  background-image: linear-gradient(90deg, #f093fb 0%, #f5576c 100%);
+  color: black;
   font-weight: 600;
   border: none;
 }
 .primary:hover {
-  background-color: #303030;
-  color: #e0c3fc;
+  background-image: linear-gradient(to top, #cd9cf2 0%, #f6f3ff 100%);
+  color: #f5576c;
   font-weight: 600;
   border: none;
 }
 
 .secondary {
-  background-color: #f7ce68;
-  color: #303030;
+  background-image: linear-gradient(90deg, #f093fb 0%, #f5576c 100%);
+  color: black;
   font-weight: 600;
   border: none;
 }
 .secondary:hover {
-  background-color: #303030;
-  color: #f7ce68;
+  background-image: linear-gradient(to top, #cd9cf2 0%, #f6f3ff 100%);
+  color: #f5576c;
   font-weight: 600;
   border: none;
 }
 
 .third {
-  background-color: #fbab7e;
-  color: #303030;
+  background-image: linear-gradient(90deg, #f093fb 0%, #f5576c 100%);
+  color: black;
   font-weight: 600;
   border: none;
 }
 .third:hover {
-  background-color: #303030;
-  color: #fbab7e;
+  background-image: linear-gradient(to top, #cd9cf2 0%, #f6f3ff 100%);
+  color: #f5576c;
   font-weight: 600;
   border: none;
 }
 
 .about {
-  background-color: #fbab7e;
-  color: #303030;
+  background-image: linear-gradient(90deg, #f093fb 0%, #f5576c 100%);
+  color: black;
   font-weight: 600;
   border: none;
 }
 
 .about:hover {
-  background-color: snow;
-  color: #fbab7e;
+  background-image: linear-gradient(to top, #cd9cf2 0%, #f6f3ff 100%);
+  color: #f5576c;
   font-weight: 600;
   border: none;
 }

@@ -9,6 +9,7 @@
   font-size: 100px;
   text-align: center;
   margin-top: 0;
+  text-decoration: underline #f5576c;
 }
 .cont {
   display: flex;
@@ -36,7 +37,7 @@
   font-size: 2rem;
   color: black;
   text-align: center;
-  text-decoration: underline salmon;
+  text-decoration: underline#f5576c;
 }
 .skills_container {
   margin-top: 2%;
