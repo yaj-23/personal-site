@@ -1,110 +1,85 @@
 .hero-container {
-  margin-top: -80px;
-  padding: 5rem;
-  display: flex;
-  flex-direction: column;
-  background-color: black;
-}
-
-.greetings {
-  padding-top: 50px;
-  text-align: center;
-  color: white;
-  font-size: 8rem;
-  font-family: "Raleway", sans-serif;
-  font-weight: 600;
-}
-
-.name {
-  text-align: center;
-  color: snow;
-  font-size: 4rem;
-  font-family: "Raleway", sans-serif;
-  font-weight: 600;
-}
-
-.buttons_hero {
-  margin-top: 2%;
+  height: 80vh;
+  align-items: center;
   justify-content: center;
-  display: flex;
   flex-direction: row;
 }
+.content-container{
+  display: flex;
 
-.button-one {
-  padding-right: 15px;
-}
-.button-two {
-  margin-right: 15px;
 }
 
-.button-three {
-  margin-right: 15px;
+.svg-container{
+  padding-top: 1.5%;
+  padding-left: 0%;
+  display: flex;
+  z-index: 50;
+  transform : scale(1);
+  transition: all 1s ease-in-out;
+}
+.svg-container:hover{
+  transform : scale(0.8);
+  transition: all 1s ease-in-out;
+  
 }
 
-.anim {
-  margin-top: 1%;
-  align-self: center;
-  width: 37%;
-  transform: scale(1);
-  transition: all 0.3s ease-in-out;
+
+.text-container{
+  width: 100%;
 }
 
-.anim:hover {
-  transform: scale(1.1);
-  transition: all 0.3s ease-in-out;
+
+
+.text1{
+  margin-left: -40%;
+  padding-top: 30%;
+  width: auto;
+  height: auto;
+  background-color:white ;
+  font-family: "SF", sans-serif;
+  font-style: normal;
+  font-size: 3rem;
+  line-height: 65px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.text2{
+  padding-top: 3%;
+  margin-left: 0%;
+  width: auto;
+  height: auto;
+  background-color:white ;
+  font-family: "SF", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 65px;
+  display: flex;
+  align-items: center;
+  color: #000000;
 }
 
-@media screen and (max-width: 960px) {
-  .anim {
-    align-content: center;
+.text3{
+  padding-top: 7%;
+  margin-left: -40%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15rem;
+  line-height: 218px;
+  /* identical to box height */
 
-    width: 45%;
-  }
-
-  .buttons_hero {
-    padding-top: 10px;
-    flex-direction: column;
-    align-items: center;
-  }
-  .button-one {
-    padding-top: 10px;
-  }
-  .button-two {
-    padding-top: 10px;
-  }
-
-  .button-three {
-    padding-top: 10px;
-  }
-  .greetings {
-    justify-content: center;
-    margin-top: 10%;
-    font-size: 4rem;
-  }
-
-  .name {
-    font-size: 3rem;
-    margin-bottom: 3%;
-  }
+  display: flex;
+  align-items: center;
+  font-family: "Agreement";
+}
+.btns-hero{
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
 }
 
-@media screen and (max-width: 768px) {
-  .anim {
-    align-items: center;
-    width: 75%;
-  }
-
-  .buttons {
-    justify-content: center;
-    padding-top: 20px;
-  }
-  .greetings {
-    margin-top: 10%;
-    font-size: 3.5rem;
-  }
-
-  .name {
-    font-size: 2rem;
-    margin-bottom: 3%;
-  }
+.btn2{
+  margin-top: 30px;
 }

@@ -1,52 +1,67 @@
-import React, {useEffect, useRef} from 'react';
+import React,  { useState, useEffect }  from 'react';
 import {Link} from 'react-scroll';
 import './Hero.css';
 import {Button} from '../Button.js';
-import lottie from 'lottie-web';
+import heroSvg from '../images/hero.svg';
+
+function getWindowDimensions() {
+    const { innerWidth: width, innerHeight: height } = window;
+    return {
+      width,
+      height
+    };
+}
+
+function useWindowDimensions() {
+    const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
+  
+    useEffect(() => {
+      function handleResize() {
+        setWindowDimensions(getWindowDimensions());
+      }
+  
+      window.addEventListener('resize', handleResize);
+      return () => window.removeEventListener('resize', handleResize);
+    }, []);
+  
+    return windowDimensions;
+  }
+
 
 function Hero() {
-
-    const anim = useRef(null)
-
-    useEffect(() =>{
-        lottie.loadAnimation({
-            container : anim.current,
-            renderer:'svg',
-            loop: true,
-            autoplay: true,
-            animationData: require('../lottiefiles/computer.json')
-        })
-    }, [] )
-
+    const {width } = useWindowDimensions();
 
     return (
         <>
             <div className='hero-container' id='home'>
-                <h1 className="greetings">Greetings</h1>
-                <p className="name">I'm Yajurva Trivedi</p>
-                
-                <div className='buttons_hero'>
-                    <Link to='about' className='button-one'  duration={800} smooth={true}>                
-                        <Button buttonStyle='btn-primary' buttonColor='primary' buttonSize='btn-medium'>
-                            About Me
-                        </Button>
-                    </Link>
+                    <div className="content-container">
+                            <div className="svg-container">
+                                <img  className="herosvg-image" alt="yatara"src={heroSvg} width={width*0.70}/>
+                            </div>
+                            <div className="text-container">
+                                    <h3 className="text1"> BRING YOUR IDEAS</h3>
+                                    <h3 className="text2">TO</h3>
+                                    <h1 className="text3">LIFE</h1>
 
-                    <Link to='projects'  className='button-two' duration={800} smooth={true}>                
-                        <Button buttonStyle='btn-primary' buttonColor='secondary' buttonSize='btn-medium'>
-                            Projects
-                        </Button>
-                    </Link>
+                                    <div className="btns-hero">
+                                    <Button className="btn1"
+                                        buttonStyle='btn-primary' 
+                                        buttonSize = 'btn-medium'
+                                        buttonColor='dark'>
+                                            contact us
+                                    </Button>
+                                    
 
-                    <Link to='contact'  className='button-three' duration={800} smooth={true}>           
-                        <Button buttonStyle='btn-primary' buttonColor='third' buttonSize='btn-medium'>
-                            Contact Me
-                        </Button>
-                    </Link>
-                </div>
-                 <div className="anim" ref={anim}></div>*
-
-                
+                                    <Button className="btn2"
+                                        buttonStyle='btn-primary' 
+                                        buttonSize = 'btn-medium'
+                                        buttonColor='light'>
+                                            portfolio
+                                    </Button>
+                                    </div>
+                                
+                            </div>
+                    </div>
             </div>            
         </>
     )

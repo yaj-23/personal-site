@@ -1,8 +1,11 @@
 import React, {useState} from 'react';
 import {Link} from 'react-scroll';
-import logo from '../images/Logo2.png';
+import logo from '../images/yatara.svg';
 import menubar from '../images/Hamburger_Menu.png';
 import menux from '../images/Hamburger_Close.png';
+import facebook from '../images/facebook.svg';
+import instagram from '../images/instagram.svg';
+import linkedin from '../images/linkedin.svg';
 import "./Navbar.css";
 
 
@@ -45,35 +48,44 @@ export default function Navbar() {
                 </div>
 
                 <ul className = {click ? 'nav-menu active' : 'nav-menu'}> {/* If menu is active, show css for that, otherwise remain the normal css for menu items*/}
-                    <li className='nav-item'> {/*  So basically ythis is the links, css is done for all those wjho are not clicked*/}
-                        <Link to='home' className='nav-links' duration={800} smooth={true} >
-                            Home
-                        </Link>
-                    </li>
 
                     <li className='nav-item'> {/*  So basically ythis is the links, css is done for all those wjho are not clicked*/}
                         <Link to='about' className='nav-links' duration={800} smooth={true}>
-                            About
+                            about
                         </Link>
                     </li>
 
-                    <li className='nav-item'> {/*  So basically ythis is the links, css is done for all those wjho are not clicked*/}
-                        <Link to='experience' className='nav-links' duration={800} smooth={true}>
-                            Experience
-                            
-                        </Link>
-                    </li>
 
                     <li className='nav-item'> {/*  So basically ythis is the links, css is done for all those wjho are not clicked*/}
                         <Link to='projects' className='nav-links' duration={800} smooth={true}>
-                            Projects
+                            portfolio
                         </Link>
                     </li>
 
                     <li className='nav-item'> {/*  So basically ythis is the links, css is done for all those wjho are not clicked*/}
                         <Link to='contact' className='nav-links' duration={800} smooth={true}>
-                            Contact
+                            contact
                         </Link>
+                    </li>
+
+                    <li className='nav-social-item'>
+                        <a href="https://www.linkedin.com/company/yatara-designs/">
+                            <img src={facebook} alt=""/>    
+                        </a>
+                        
+                    </li>
+
+                    <li className='nav-social-item'>
+                        <a href="https://www.linkedin.com/company/yatara-designs/">
+                            <img src={instagram} alt=""/>
+                        </a>
+                        
+                    </li>
+                    <li className='nav-social-item'>
+                        <a href="https://www.linkedin.com/company/yatara-designs/">
+                            <img src={linkedin} alt=""/>
+                        </a>
+                        
                     </li>
                
                

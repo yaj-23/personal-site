@@ -10,10 +10,10 @@ function Home() {
     return (
       <>
         <Hero/>
-        <About/> 
+        {/**<About/> 
         <Cards/>
         <CardsOne/>
-        <Contact/> 
+        <Contact/>*/ }
         
       </>
     );
