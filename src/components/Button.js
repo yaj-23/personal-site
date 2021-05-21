@@ -3,8 +3,8 @@ import './Button.css';
 
 
 const STYLES = ['btn-primary', 'btn-secondary']
-const SIZES = ['btn-medium' , 'btn-large' , 'btn-mobile']
-const COLOR = ['primary', 'secondary', 'skills']
+const SIZES = ['btn-medium']
+const COLOR = ['dark', 'light']
 
 export const Button = ( {
     children,

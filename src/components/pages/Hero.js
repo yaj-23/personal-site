@@ -6,7 +6,6 @@ import lottie from 'lottie-web';
 
 function Hero() {
 
-   
     const anim = useRef(null)
 
     useEffect(() =>{
@@ -22,7 +21,6 @@ function Hero() {
 
     return (
         <>
-            
             <div className='hero-container' id='home'>
                 <h1 className="greetings">Greetings</h1>
                 <p className="name">I'm Yajurva Trivedi</p>
@@ -46,8 +44,7 @@ function Hero() {
                         </Button>
                     </Link>
                 </div>
-                <div className="anim" ref={anim}></div>
-
+                 <div className="anim" ref={anim}></div>*
 
                 
             </div>            

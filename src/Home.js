@@ -13,7 +13,7 @@ function Home() {
         <About/> 
         <Cards/>
         <CardsOne/>
-        <Contact/> 
+        <Contact/>
         
       </>
     );
