@@ -10,8 +10,10 @@ import {Button} from '../Button.js';
 
 function About() {
 
-    const animone = useRef(null)
 
+    
+
+    const animone = useRef(null)
 
     useEffect(() =>{
         lottie.loadAnimation({
@@ -25,6 +27,7 @@ function About() {
 
     return (
         <>
+        
             <div className="about-container" id='about'>
                 <h1 className='header'>
                     About Me

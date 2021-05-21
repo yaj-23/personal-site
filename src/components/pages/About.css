@@ -1,4 +1,5 @@
 .about-container {
+  border-bottom-left-radius: 300px;
   padding: 5rem;
   background-color: snow;
 }
@@ -11,6 +12,7 @@
   margin-top: 0;
   text-decoration: underline #f5576c;
 }
+
 .cont {
   display: flex;
   flex-direction: column;

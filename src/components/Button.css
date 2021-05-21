@@ -64,6 +64,9 @@
   font-weight: 600;
   border: none;
 }
+.primary:hover ~ .cursor {
+  transform: scale(5);
+}
 
 .secondary {
   background-image: linear-gradient(90deg, #f093fb 0%, #f5576c 100%);
