@@ -100,16 +100,19 @@
     width: 100%;
     margin: auto;
     font-size: 5rem;
+    padding-bottom: 5vh ;
   }
   .bullet-points{
-    
+    text-align: left;
     font-size: 1rem;
   }
 
   .herosvg-image{
-    width: 50%;
+    align-self: center;
+    margin-top: -5vh;
+    width: 100%;
     animation: ckw infinite 20s linear;
-    padding-bottom: 10px;
+    padding-bottom: 10vh;
     transform-origin: 50% 50%;
     
   }

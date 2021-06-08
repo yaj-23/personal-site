@@ -58,6 +58,8 @@ function Contact() {
                             email me
                     </Button>
                 </a>
+                <br></br>
+                <br></br>
             </div>
         </>
     )
