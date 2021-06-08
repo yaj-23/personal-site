@@ -4,6 +4,8 @@
   padding: 0;
 }
 
+
+
 @font-face {
   font-family: "Anders";
   src: url(./components/fonts/Anders.ttf);
@@ -16,4 +18,8 @@
 @font-face {
   font-family: "Agreement";
   src: url(./components/fonts/Agreement.ttf);
+}
+@font-face {
+  font-family: "CalibreReg";
+  src: url(./components/fonts/Calibre-Regular.ttf);
 }

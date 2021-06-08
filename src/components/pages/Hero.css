@@ -1,110 +1,119 @@
 .hero-container {
-  margin-top: -80px;
   padding: 5rem;
   display: flex;
   flex-direction: column;
-  background-color: black;
+  overflow: hidden;
+  background: linear-gradient(180deg, #312e2e 0%, #000000 100%);
 }
 
-.greetings {
-  padding-top: 50px;
-  text-align: center;
-  color: white;
-  font-size: 8rem;
-  font-family: "Raleway", sans-serif;
-  font-weight: 600;
+.first_part{
+  padding-top: 10vh;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 5vh;
+  background: transparent;
+
 }
 
-.name {
-  text-align: center;
-  color: snow;
-  font-size: 4rem;
-  font-family: "Raleway", sans-serif;
-  font-weight: 600;
-}
+.second_part{
+  padding-bottom: 5vh;
+  background: transparent;
 
-.buttons_hero {
-  margin-top: 2%;
-  justify-content: center;
+}
+.name_part{
   display: flex;
   flex-direction: row;
 }
+.herosvg-image{
+  margin-top: -50px;
+  margin-left: 50px;
+  background: transparent;
+  animation: ckw infinite 10s linear;
 
-.button-one {
-  padding-right: 15px;
 }
-.button-two {
-  margin-right: 15px;
+.first_line{
+  font-family: 'SF Thin';
+  font-weight: 250;
+  font-size: 3rem;
+  color: #FFFFFF;
+  margin-left: 10px;
+  margin-right: 10px;
+  background: transparent;
+
+  
 }
 
-.button-three {
-  margin-right: 15px;
+.name{
+  width: 50%;
+  color: #FFFFFF;
+  font-family: Calibre;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 10rem;
+  line-height: 180px;
+  background: transparent;
+
 }
 
-.anim {
-  margin-top: 1%;
-  align-self: center;
-  width: 37%;
-  transform: scale(1);
-  transition: all 0.3s ease-in-out;
+
+
+.bullet-points{
+  font-family: 'SF Thin';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 1.3rem;
+  line-height: 30px;
+  letter-spacing: 0.15em;
+  color: #FFFFFF;
+  background: transparent;
+
 }
 
-.anim:hover {
-  transform: scale(1.1);
-  transition: all 0.3s ease-in-out;
-}
+@keyframes ckw {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+} 
 
 @media screen and (max-width: 960px) {
-  .anim {
-    align-content: center;
-
-    width: 45%;
+  .hero-container{
+    
+    padding: 0;
   }
-
-  .buttons_hero {
-    padding-top: 10px;
+  .name_part{
+    display: flex;
     flex-direction: column;
-    align-items: center;
   }
-  .button-one {
-    padding-top: 10px;
-  }
-  .button-two {
-    padding-top: 10px;
-  }
-
-  .button-three {
-    padding-top: 10px;
-  }
-  .greetings {
-    justify-content: center;
-    margin-top: 10%;
-    font-size: 4rem;
-  }
-
-  .name {
-    font-size: 3rem;
-    margin-bottom: 3%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .anim {
-    align-items: center;
-    width: 75%;
-  }
-
-  .buttons {
-    justify-content: center;
-    padding-top: 20px;
-  }
-  .greetings {
-    margin-top: 10%;
-    font-size: 3.5rem;
-  }
-
-  .name {
+  .first_line{
     font-size: 2rem;
-    margin-bottom: 3%;
   }
+
+  .first_part{
+    padding-bottom: 0;
+
+  }
+
+  .name{
+    width: 100%;
+    margin: auto;
+    font-size: 5rem;
+  }
+  .bullet-points{
+    
+    font-size: 1rem;
+  }
+
+  .herosvg-image{
+    width: 50%;
+    animation: ckw infinite 20s linear;
+    padding-bottom: 10px;
+    transform-origin: 50% 50%;
+    
+  }
+ 
+
+
 }

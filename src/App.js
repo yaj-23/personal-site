@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/navbar/Navbar';
-import {BrowserRouter as Router, Switch, Route, NavLink} from 'react-router-dom';
+// import Navbar from './components/navbar/Navbar';
+// import {BrowserRouter as Router, Switch, Route, NavLink} from 'react-router-dom';
 import Home from './Home';
-import About from './components/pages/About';
+// import Projects from './components/pages/Projects'
 
 
 function App(){
@@ -12,14 +12,14 @@ function App(){
 
     
     return(
-        <>  
+        <div className='app'>  
 
 
-          
+          <Home/>
                     
 
       
-            <Router>
+            {/* <Router>
                 <Navbar/>
                 <Switch>
                     <Route path ='/' exact component={Home} />
@@ -31,8 +31,8 @@ function App(){
                 
 
 
-            </Router>
-        </>
+            </Router> */}
+        </div>
     );
 }
 export default App; 

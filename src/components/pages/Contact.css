@@ -1,100 +1,51 @@
 .contact-container {
-  padding: 4rem;
-  background-color: black;
-}
-.contact-header {
-  padding-top: 5px;
-  text-align: center;
-  color: white;
-  font-size: 8rem;
-  font-family: "Raleway", sans-serif;
-  font-weight: 600;
-}
-.sent {
-  text-align: center;
-  color: snow;
-  font-size: 2rem;
-  font-family: "Raleway", sans-serif;
-  font-weight: 400;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg, #000000 0%, #312e2e 100%);
 }
 
-.icons {
-  justify-content: center;
+.contact-cards{
   display: flex;
   flex-direction: row;
-  font-size: 50px;
+}
 
-  margin-top: 10px;
+.title{
+  font-family: Calibre;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+
 }
-.linkedin {
-  color: snow;
-  margin-right: 10px;
-  border-radius: 20px;
-  transform: scale(1);
-  transition: all 0.3s ease-in-out;
+
+.contact-link{
+  margin: auto;
+  padding-left: 2vw;
+  font-size: 2rem;
+  cursor: pointer;
 }
-.linkedin:hover {
-  color: #f5576c;
-  transform: scale(1.1);
-  transition: all 0.3s ease-in-out;
+
+.contact-btn{
+  margin-top: -10vh;
 }
-.insta {
-  color: snow;
-  margin-right: 10px;
-  border-radius: 20px;
-  transform: scale(1);
-  transition: all 0.3s ease-in-out;
-}
-.insta:hover {
-  color: #f5576c;
-  transform: scale(1.1);
-  transition: all 0.3s ease-in-out;
-}
-.messenger {
-  color: snow;
-  margin-right: 10px;
-  border-radius: 20px;
-  transform: scale(1);
-  transition: all 0.3s ease-in-out;
-}
-.messenger:hover {
-  color: #f5576c;
-  transform: scale(1.1);
-  transition: all 0.3s ease-in-out;
-}
-.git {
-  color: snow;
-  margin-right: 10px;
-  border-radius: 20px;
-  transform: scale(1);
-  transition: all 0.3s ease-in-out;
-}
-.git:hover {
-  color: #f5576c;
-  transform: scale(1.1);
-  transition: all 0.3s ease-in-out;
-}
-@media screen and (max-width: 960px) {
-  .contact-container {
-    height: max-content;
-    margin-top: 10px;
+
+@media screen and (max-width:960px) {
+  .contact-container{
+    align-items: center;
+    position: center;
+    display: flex;
+    flex-direction: column;
+    padding:0%;
   }
-  .contact-header {
-    font-size: 5rem;
+
+  .contact-cards{
+    display: flex;
+    flex-direction: column;
   }
-  .sent {
-    font-size: 2rem;
+  .contact-btn{
+    margin-right: 20vw;
   }
-  .icons {
-    margin-left: 0px;
-    align-self: center;
-  }
-}
-@media screen and (max-width: 768px) {
-  .contact-header {
-    font-size: 3rem;
-  }
-  .sent {
-    font-size: 1.5rem;
-  }
+  
+  
 }

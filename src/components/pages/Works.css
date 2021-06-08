@@ -1,0 +1,46 @@
+.works-container{
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, #312e2e 0%, #000000 100%);
+}
+
+.works-cards{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 5vh;
+}
+
+.company{
+    font-family: Calibre;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+
+    color: #FFFFFF;
+}
+
+.position{
+    font-family: SFNS Display;
+    font-style: normal;
+    font-weight: 250;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+
+}
+
+@media screen and (max-width:960px){
+    .works-container{
+        align-items: center;
+
+        padding:0;
+    }
+    .works-cards{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}

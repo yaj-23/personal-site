@@ -1,8 +1,7 @@
 import Hero from './components/pages/Hero';
-import Cards from './components/cards/Cards';
-import About from './components/pages/About';
+import Projects from './components/pages/Projects';
 import Contact from './components/pages/Contact';
-import CardsOne from './components/cardsone/CardsOne';
+import Works from './components/pages/Works';
 
 
 
@@ -10,9 +9,8 @@ function Home() {
     return (
       <>
         <Hero/>
-        <About/> 
-        <Cards/>
-        <CardsOne/>
+        <Projects/> 
+        <Works/>
         <Contact/>
         
       </>

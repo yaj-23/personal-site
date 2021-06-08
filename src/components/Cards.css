@@ -1,0 +1,247 @@
+.short-one{
+    width: 250px;
+    height: 70px;
+    padding-top: 2vh;
+    padding-left: 3vw;
+    border: 2px solid #00C9FF;
+    transform: scale(1);
+    transition: all 0.4s ease-out;
+}
+.short-one:hover{
+   
+    transform: scale(1.1);
+    transition: all 0.4s ease-out;
+}
+
+
+.short-two{
+    width: 250px;
+    height: 70px;
+    padding-top: 2vh;
+    padding-left: 3vw;
+    border: 2px solid #FF0844;
+    transform: scale(1);
+    transition: all 0.4s ease-out;
+}
+
+.short-two:hover{
+  
+    transform: scale(1.1);
+    transition: all 0.4s ease-out;
+}
+.short-three{
+    width: 250px;
+    height: 70px;
+    padding-top: 2vh;
+    padding-left: 3vw;
+    border: 2px solid #005BEA;
+    transform: scale(1);
+    transition: all 0.4s ease-out;
+}
+
+.short-three:hover{
+ 
+    transform: scale(1.1);
+    transition: all 0.4s ease-out;
+
+}
+.short-four{
+    width: 250px;
+    height: 70px;
+    padding-top: 2vh;
+    padding-left: 3vw;
+    border: 2px solid #FFD1FF;
+    transform: scale(1);
+    transition: all 0.4s ease-out;
+}
+.short-four:hover{
+  
+    transform: scale(1.1);
+    transition: all 0.4s ease-out;
+}
+
+.standard{
+    width: 250px;
+    height: 300px;
+    padding-left: 1vw;
+    border: 2px solid #F5576C;
+    text-align: left;
+    transform: scale(1);
+    transition: all 0.4s ease-out;
+}
+
+.standard:hover{
+    transform: scale(1.1);
+    transition: all 0.4s ease-out;
+}
+
+.standard-two{
+    width: 250px;
+    height: 300px;
+    padding-left: 1vw;
+    border: 2px solid #FF8736;
+    text-align: left;
+    transform: scale(1);
+    transition: all 0.4s ease-out;
+}
+.standard-two:hover{
+    transform: scale(1.1);
+    transition: all 0.4s ease-out;
+}
+
+.standard-three{
+    width: 250px;
+    height: 300px;
+    padding-left: 1vw;
+    border: 2px solid #97D9E1;
+    text-align: left;
+    transform: scale(1);
+    transition: all 0.4s ease-out;
+}
+.standard-three:hover{
+    transform: scale(1.1);
+    transition: all 0.4s ease-out;
+}
+
+.standard-four{
+    width: 250px;
+    height: 300px;
+    padding-left: 1vw;
+    border: 2px solid #96E6A1;
+    text-align: left;
+    transform: scale(1);
+    transition: all 0.4s ease-out;
+}
+.standard-four:hover{
+    transform: scale(1.1);
+    transition: all 0.4s ease-out;
+}
+
+.one{
+    background: linear-gradient(180deg, #F093FB 0%, #F5576C 100%);
+    width: 250px;
+    height: 300px;
+    text-align: left;
+    color: white;
+    transform: scale(1);
+    transition: all 0.3s ease-out;
+}
+
+.one:hover{
+    background: transparent;
+    border: 2px solid #F5576C;
+    transform: scale(1.1);
+    transition: all 0.3s ease-out;
+}
+
+.two{
+    background: linear-gradient(180deg, #EBA352 0%, #FF501E 100%);
+    width: 250px;
+    height: 300px;
+    text-align: left;
+    color: white;
+    transform: scale(1);
+    transition: all 0.3s ease-out;
+}
+.two:hover{
+    background: transparent;
+    border: 2px solid #FF501E;
+    transform: scale(1.1);
+    transition: all 0.3s ease-out;
+}
+
+
+.three{
+    background: linear-gradient(180deg, #D9AFD9 0%, #97D9E1 100%);
+    width: 250px;
+    height: 300px;
+    text-align: left;
+    color: #434141;
+    transform: scale(1);
+    transition: all 0.3s ease-out;
+}
+.three:hover{
+    background: transparent;
+    border: 2px solid #97D9E1;
+    transform: scale(1.1);
+    transition: all 0.3s ease-out;
+}
+.four{
+    background: linear-gradient(180deg, #D4FC79 0%, #96E6A1 100%);
+    width: 250px;
+    height: 300px;
+    text-align: left;
+    color: #434141;
+    transform: scale(1);
+    transition: all 0.3s ease-out;
+}
+.four:hover{
+    background: transparent;
+    border: 2px solid #D4FC79;
+    transform: scale(1.1);
+    transition: all 0.3s ease-out;
+}
+
+.five{
+    background: linear-gradient(180deg, #92FE9F 0%, #00C9FF 100%);
+    width: 250px;
+    height: 300px;
+    text-align: left;
+    color: #434141;
+    transform: scale(1);
+    transition: all 0.3s ease-out;
+}
+
+.five:hover{
+    background: transparent;
+    border: 2px solid #92FE9F;
+    transform: scale(1.1);
+    transition: all 0.3s ease-out;
+}
+.six{
+    background: linear-gradient(180deg, #FF0844 0%, #FFB199 100%);
+    width: 250px;
+    height: 300px;
+    text-align: left;
+    color: white;
+    transform: scale(1);
+    transition: all 0.3s ease-out;
+}
+.six:hover{
+    background: transparent;
+    border: 2px solid #FFB199;
+    transform: scale(1.1);
+    transition: all 0.3s ease-out;
+}
+
+.seven{
+    background: linear-gradient(180deg, #00C6FB 0%, #005BEA 100%);
+    width: 250px;
+    height: 300px;
+    text-align: left;
+    color: white;
+    transform: scale(1);
+    transition: all 0.3s ease-out;
+}
+
+.seven:hover{
+    background: transparent;
+    border: 2px solid #00C6FB;
+    transform: scale(1.1);
+    transition: all 0.3s ease-out;
+}
+.eight{
+    background: linear-gradient(180deg, #FAD0C4 0%, #FFD1FF 100%);    
+    width: 250px;
+    height: 300px;
+    text-align: left;
+    color: #434141;
+    transform: scale(1);
+    transition: all 0.3s ease-out;
+}
+.eight:hover{
+    background: transparent;
+    border: 2px solid #FAD0C4;
+    transform: scale(1.1);
+    transition: all 0.3s ease-out;
+}

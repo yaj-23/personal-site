@@ -1,50 +1,83 @@
-import React, {useEffect, useRef} from 'react';
-import {Link} from 'react-scroll';
+import React, {useEffect, useState} from 'react';
+import { Icon} from '@iconify/react';
+import wavingHand from '@iconify/icons-emojione/waving-hand';
 import './Hero.css';
 import {Button} from '../Button.js';
-import lottie from 'lottie-web';
+import heroSvg from '../images/hero.svg'
+import Typewriter from 'typewriter-effect'; 
+import {Link} from 'react-scroll';
 
+
+
+function getWindowDimensions() {
+    const { innerWidth: width, innerHeight: height } = window;
+    return {
+      width,
+      height
+    };
+}
+
+function useWindowDimensions() {
+    const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
+  
+    useEffect(() => {
+      function handleResize() {
+        setWindowDimensions(getWindowDimensions());
+      }
+  
+      window.addEventListener('resize', handleResize);
+      return () => window.removeEventListener('resize', handleResize);
+    }, []);
+  
+    return windowDimensions;
+  }
 function Hero() {
 
-    const anim = useRef(null)
+    const {width } = useWindowDimensions();
 
-    useEffect(() =>{
-        lottie.loadAnimation({
-            container : anim.current,
-            renderer:'svg',
-            loop: true,
-            autoplay: true,
-            animationData: require('../lottiefiles/computer.json')
-        })
-    }, [] )
 
 
     return (
         <>
             <div className='hero-container' id='home'>
-                <h1 className="greetings">Greetings</h1>
-                <p className="name">I'm Yajurva Trivedi</p>
-                
-                <div className='buttons_hero'>
-                    <Link to='about' className='button-one'  duration={800} smooth={true}>                
-                        <Button buttonStyle='btn-primary' buttonColor='primary' buttonSize='btn-medium'>
-                            About Me
-                        </Button>
-                    </Link>
 
-                    <Link to='projects'  className='button-two' duration={800} smooth={true}>                
-                        <Button buttonStyle='btn-primary' buttonColor='secondary' buttonSize='btn-medium'>
-                            Projects
-                        </Button>
-                    </Link>
-
-                    <Link to='contact'  className='button-three' duration={800} smooth={true}>           
-                        <Button buttonStyle='btn-primary' buttonColor='third' buttonSize='btn-medium'>
-                            Contact Me
-                        </Button>
-                    </Link>
+                <div className='first_part'>
+                    <h1 className="first_line">greetings  </h1>
+                    <Icon className="waveing_hand" icon={wavingHand} style={{fontSize: '50px'}} />
+                    <h1 className="first_line">  i'm</h1>
                 </div>
-                 <div className="anim" ref={anim}></div>*
+
+                <div className='second_part'>
+                    <div className='name_part'>
+                        <h1 className='name'>
+                            <Typewriter className='typewriter'
+                                options={{
+                                    strings:["yajurva."],
+                                    autoStart: true,
+                                    loop :true
+                                }}
+                            />
+                        </h1>
+                        <img  className="herosvg-image" alt="yajurva"src={heroSvg} width={width*0.20}/>
+
+                    </div>
+                    
+                    <h4 className='bullet-points'>• software enthusiast</h4>
+                    <h4 className='bullet-points'>• full-stack developer</h4>
+                    <h4 className='bullet-points'>• ux/ui designer</h4>
+                    <h4 className='bullet-points'>• basketball fanatic</h4>
+                    
+                    <Link to='contact' duration={800} smooth={true}>
+                        <Button buttonColor='primary' buttonSize='btn-medium' buttonStyle='btn-primary'>
+                            contact me
+                        </Button>
+                    </Link>
+                  
+                </div>
+               
+
+
+
 
                 
             </div>            
