@@ -81,7 +81,7 @@
 @media screen and (max-width: 960px) {
   .hero-container{
     
-    padding: 0;
+    padding-left: 10vw;
   }
   .name_part{
     display: flex;

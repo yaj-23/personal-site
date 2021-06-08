@@ -7,7 +7,7 @@
 }
 
 .header_line{
-  font-family: a Agreement Signature;
+  font-family: 'Agreement';
   font-size: 8rem;
   color: #FFFFFF;
   padding-bottom: 5vh;
@@ -34,7 +34,7 @@
   padding-left: 1vw;
 }
 .card-desc-dark{
-  font-family: a Agreement Signature;
+  font-family: 'Agreement';
   font-style: normal;
   font-weight: normal;
   font-size: 6rem;
@@ -44,7 +44,7 @@
   color: rgba(67, 65, 65, 0.25);
 }
 .card-desc-dark-outlier{
-  font-family: a Agreement Signature;
+  font-family:'Agreement';
   font-style: normal;
   font-weight: normal;
   font-size: 5rem;
@@ -54,7 +54,7 @@
 }
 
 .card-desc{
-  font-family: a Agreement Signature;
+  font-family:'Agreement';
   font-style: normal;
   font-weight: normal;
   font-size: 6rem;
