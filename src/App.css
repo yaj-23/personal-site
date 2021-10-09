@@ -42,3 +42,7 @@
   font-family: "AileronReg";
   src: url(./components/fonts/Aileron-Regular.otf);
 }
+@font-face {
+  font-family: "AileronThin";
+  src: url(./components/fonts/Aileron-Thin.otf);
+}
