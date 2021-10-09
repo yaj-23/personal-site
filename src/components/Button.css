@@ -1,17 +1,17 @@
 .btn-medium {
   border-radius: 10px;
-  font-size: 18px;
+  font-size: 3vw;
   cursor: pointer;
 }
 
 .btn-primary { 
-  width: 150px;
+  width: 15vw;
   height: 50px;
   margin-top: 30px;
+  margin-right: 2vw;
   border: none;
-  font-size: 1.3rem;
+  font-size: 3vw;
   font-family: "SF Thin", sans-serif;
-  font-style: normal;
   font-weight: bold;
   transform: scale(1);
   transition: all 0.3s ease-out;
@@ -27,13 +27,54 @@
   font-family: 'SF Thin';
   font-style: normal;
   font-size: 20px;
-  font-weight: bold;  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25), -4px -4px 4px rgba(0, 0, 0, 0.25);
+  font-weight: bold; 
+  border: 1px solid;
+  border-color: rgba(0, 0, 0, 0.3);
+  justify-content: center;
+  
+
 }
 .primary:hover {
-  color: #FDA085;
-  background: #000000;
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25), -4px -4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 10px;
-  border: 2px solid #FDA085;
+  color: #4158D0;
 }
 
+.secondary{
+  background: white;
+  color: black;
+  font-family: 'SF Thin';
+  font-style: normal;
+  font-size: 20px;
+  font-weight: bold; 
+  border: 1px solid;
+  border-color: rgba(0, 0, 0, 0.3);
+
+}
+.secondary:hover {
+  color: #C850C0;
+}
+
+.tertiary{
+  background: white;
+  color: black;
+  font-family: 'SF Thin';
+  font-style: normal;
+  font-size: 20px;
+  font-weight: bold; 
+  border: 1px solid;
+  border-color: rgba(0, 0, 0, 0.3);
+}
+
+.tertiary:hover{
+  color: #80D0C7;
+}
+
+@media screen and (max-width: 960px){
+  
+  .btn-primary{
+    width: 45vw;
+    justify-content: center;
+    height: 50px;
+  }
+
+
+}

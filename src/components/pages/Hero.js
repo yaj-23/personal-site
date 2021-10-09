@@ -1,9 +1,6 @@
 import React, {useEffect, useState} from 'react';
-import { Icon} from '@iconify/react';
-import wavingHand from '@iconify/icons-emojione/waving-hand';
 import './Hero.css';
 import {Button} from '../Button.js';
-import heroSvg from '../images/hero.svg'
 import Typewriter from 'typewriter-effect'; 
 import {Link} from 'react-scroll';
 
@@ -41,41 +38,52 @@ function Hero() {
         <>
             <div className='hero-container' id='home'>
 
-                <div className='first_part'>
-                    <h1 className="first_line">greetings  </h1>
-                    <Icon className="waveing_hand" icon={wavingHand} style={{fontSize: '50px'}} />
-                    <h1 className="first_line">  i'm</h1>
-                </div>
 
-                <div className='second_part'>
-                    <div className='name_part'>
+                <div className='first_part'>
                         <h1 className='name'>
                             <Typewriter className='typewriter'
                                 options={{
-                                    strings:["yajurva."],
+                                    strings:["Yajurva Trivedi." ],
                                     autoStart: true,
                                     loop :true
                                 }}
                             />
+                            
                         </h1>
-                        <img  className="herosvg-image" alt="yajurva"src={heroSvg} width={width*0.20}/>
-
-                    </div>
-                    
-                    <h4 className='bullet-points'>• software enthusiast</h4>
-                    <h4 className='bullet-points'>• full-stack developer</h4>
-                    <h4 className='bullet-points'>• ux/ui designer</h4>
-                    <h4 className='bullet-points'>• basketball fanatic</h4>
-                    
-                    <Link to='contact' duration={800} smooth={true}>
-                        <Button buttonColor='primary' buttonSize='btn-medium' buttonStyle='btn-primary'>
-                            contact me
-                        </Button>
-                    </Link>
-                  
+                        <h2 className='hero-title'>Software Engineer.</h2>
                 </div>
                
-
+                <div className='second_part'>
+                    <div className="box">
+                        <h4 className="medium-text">CURRENT.</h4>
+                        <p1 className="small-text">Project Manager | CEN100</p1>
+                        <p1 className="small-text">Faculty of Engineering & Architectural Science | Ryerson U </p1>
+                    </div>
+                    <br></br>
+                    <div className="box">
+                        <h4 className="medium-text">PREVIOUS.</h4>
+                        <p1 className="small-text">Front-End Developer</p1>
+                        <p1 className="small-text">Crossroads Free Methodist Church</p1>
+                    </div>
+                </div>
+                
+                <div className="third_part">
+                    <Link to='experience' duration={800} smooth={true}>
+                        <Button buttonColor='primary' buttonSize='btn-medium' buttonStyle='btn-primary'>
+                            Work Experience.
+                        </Button>
+                    </Link>
+                    <Link to='project' duration={800} smooth={true}>
+                        <Button buttonColor='secondary' buttonSize='btn-medium' buttonStyle='btn-primary'>
+                            Projects.
+                        </Button>
+                    </Link>
+                    <Link to='contact' duration={800} smooth={true}>
+                        <Button buttonColor='tertiary' buttonSize='btn-medium' buttonStyle='btn-primary'>
+                            Contact.
+                        </Button>
+                    </Link>
+                </div>
 
 
 

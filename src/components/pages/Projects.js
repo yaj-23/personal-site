@@ -1,6 +1,5 @@
 import React from 'react';
 import './Projects.css';
-import {Cards} from '../Cards';
 import githubwhite from '../images/github-white.svg';
 import githubdark from '../images/github.svg';
 import externallinkwhite from '../images/external-link-white.svg';
@@ -12,169 +11,133 @@ import externallinkdark from '../images/external-link.svg';
 
 function Projects() {
 
-
-    
-
-
     return (
         <>
         
             <div className="projects-container" id='project'>   
-                <h1 className="header_line">view some of my projects</h1>
-                <div className='projects-cards'>
-                    <Cards className='card' cardColor='one' >
-                            <h3 className='card-header'>Yatara Designs.</h3>
-                            <h2 className='card-desc'>website</h2>
-                            <div className='card-stacks'> 
-                                <p1 className='stacks'>ReactJs</p1>
-                                <p1 className='stacks'>HTML/CSS</p1>
-                                <p1 className='stacks'>Figma</p1>
-                            </div>
-                            <div className='links'>
-                                <a href='https://github.com/yaj-23/YataraSite'>
-                                    <img className='link' alt='yajurva'src={githubwhite}/>
-                                </a>
-                                <a href='https://yataradesigns.com/'>
-                                    <img className='link'alt='yajurva' src={externallinkwhite}/>
-                                </a>
+                <h1 className="header_line">Featured Projects.</h1>
+             
+                    <div className='line1'>
 
-                            </div>
-                    </Cards>
-                    <br></br>
-                    <Cards className='card' cardColor='two' >
-                            <h3 className='card-header'>Portfolio Site.</h3>
-                            <h2 className='card-desc'>website</h2>
-                            <div className='card-stacks'> 
-                                <p1 className='stacks'>ReactJs</p1>
-                                <p1 className='stacks'>HTML/CSS</p1>
-                                <p1 className='stacks'>Figma</p1>
-                            </div>
-                            <div className='links'>
-                                <a href='https://github.com/yaj-23/personal-site'>
-                                    <img className='link'alt='yajurva' src={githubwhite}/>
+                        <div className="project-left">
+                            <h1 className="project-name">Vada Medical</h1>
+                            <p1  className="project-desc">Utilized Voiceflow for our automated chatbot system which is intergrated with Google Assistant Programs. The data received from the chatbot is stored in an excel file which uses Dropbase to store into a database. This data is fetched using REST API Methods, and utilized to publish on a website/chat area or a physical document of some sort. The website is created using React Js, HTML/CSS</p1>
+                            <div className="links">
+                                <a href="https://github.com/yaj-23/HackTheNorth2021"><
+                                    img  className="project-github" src={githubdark} width={30}/>
                                 </a>
-                                <a href='https://yajurvatrivedi.me/'>
-                                    <img className='link'alt='yajurva' src={externallinkwhite}/>
+                                <a href="https://vada-medical.tech/">
+                                    <img  className="project-link" src={externallinkdark} width={30}/>
                                 </a>
+                            </div>
+                           
+                        </div>
+                     
+                        <div className="project-right">
+                            <h1 className="project-name-contrast">Zensations</h1>
+                            <p1  className="project-desc-contrast">
+                                Frond-End comprised of React Ionic. For the backend, we used Express.js with Node.js and TypeScript for a REST API to communicate.
+                                The database of choice was none other than Cockroachdb, storing Yoga exercises, image URL's and a seperate table mapping Yoga positions with emotions (Angry, Sad, Happy, etc.) in order to improve the classification of exercises.
+                            </p1>
+                          
+                            <div className="links">
+                                <a href="https://github.com/yaj-23/DeltaHacks7">
+                                    <img  className="project-github" src={githubwhite} width={30}/>
+                                </a>
+                                <a href="https://vada-medical.tech/">
+                                    <img  className="project-link" src={externallinkwhite} width={30}/>
+                                </a>
+                            </div>
+                           
+                        </div>
+                        
 
-                            </div>
-                    </Cards>
-                    <br></br>
-                    <Cards className='card' cardColor='three' >
-                            <h3 className='card-header'>Vada Medical.</h3>
-                            <h2 className='card-desc-dark'>website</h2>
-                            <div className='card-stacks'> 
-                                <p1 className='stacks-dark'>ReactJs</p1>
-                                <p1 className='stacks-dark'>HTML/CSS</p1>
-                                <p1 className='stacks-dark'>VonageApi</p1>
-                            </div>
-                            <div className='links'>
-                                <a href='https://github.com/yaj-23/HackTheNorth2021'>
-                                    <img className='link'alt='yajurva' src={githubdark}/>
-                                </a>
-                                <a href='https://vada-medical.tech/'>
-                                    <img className='link' alt='yajurva'src={externallinkdark}/>
-                                </a>
+                        
+                        
+                       
+                    </div>
 
-                            </div>
-                    </Cards>
-                    <br></br>
-                    <Cards className='card' cardColor='four' >
-                            <h3 className='card-header'>Zen-Sations.</h3>
-                            <h2 className='card-desc-dark'>mobile</h2>
-                            <div className='card-stacks'> 
-                                <p1 className='stacks-dark'>ReactIonic</p1>
-                                <p1 className='stacks-dark'>TypeScript</p1>
-                                <p1 className='stacks-dark'>NodeJs</p1>
-                            </div>
-                            <div className='links'>
-                                <a href='https://github.com/yaj-23/DeltaHacks7'>
-                                    <img className='link' alt='yajurva'src={githubdark}/>
-                                </a>
-                                <a href='https://devpost.com/software/zensations'>
-                                    <img className='link' alt='yajurva'src={externallinkdark}/>
-                                </a>
+                    
 
+                    <div className="line2">
+                        <div className="project-right">
+                            <h1 className="project-name-contrast">Link</h1>
+                            <p1  className="project-desc-contrast">
+                            Link allows you to swipe throughout locations in Toronto mimicking a social media platform.
+                            This application was built by carefully designing a clean FIGMA design. After creating a design which was most appealing, I converted design into React Native Application.
+                            </p1>
+                        
+                            <div className="links">
+                                <a href="https://github.com/yaj-23/RUHacks">
+                                    <img  className="project-github" src={githubwhite} width={30}/>
+                                </a>
+                                <a href="https://devpost.com/software/link-peydzb">
+                                    <img  className="project-link" src={externallinkwhite} width={30}/>
+                                </a>
                             </div>
-                    </Cards>
+                            
+                        </div>
+
+                        <div className="project-left">
+                                <h1 className="project-name">Greenify</h1>
+                                <p1  className="project-desc">The frontend and design for the app was made with Figma. Utilized Expo to help with the back-end and make the ReactNative APP. Google Clouds Firebase to store all of our users. Javascript, as the baseline programming language, Firestore to host the database, and Postman for API testing.</p1>
+                                <div className="links">
+                                    <a href="https://github.com/yaj-23/TOHacks"><
+                                        img  className="project-github" src={githubdark} width={30}/>
+                                    </a>
+                                    <a href="https://devpost.com/software/greenify-n4pg0b">
+                                        <img  className="project-link" src={externallinkdark} width={30}/>
+                                    </a>
+                                </div>
+                            
+                        </div>
+                    </div>
+
+                    <div className="line3">
+                        <div className="project-left">
+                                <h1 className="project-name">GPU/ALU Design</h1>
+                                <p1  className="project-desc">
+                                Using Intel Quartus, designed and tested General Processing Unit based on arithmetic operations by examining waveforms generated from VHDL Files. Unit incorporated the use of Latches, Seven Segment Displays, Decoder (4x16), and designs of Moore Machine.
+                                </p1>
+                                <div className="links">
+                                    <a href="https://github.com/yaj-23/COE328_ALU-GPU_DESIGN">
+                                        <img  className="project-github" src={githubdark} width={30}/>
+                                    </a>
+                                   
+                                </div>
+                            
+                        </div>
+
+                        <div className="project-right">
+                            <h1 className="project-name-contrast">Xplor To</h1>
+                            <p1  className="project-desc-contrast">
+                            Food Discovering application with front-end framework pre-designed in Figma, with Flutter as the Primary Language. The process of completing this application is still progressing, to test/see code please contact me! 
+                            </p1>
+                        
+                            {/* <div className="links">
+                                <a href="https://github.com/yaj-23/RUHacks">
+                                    <img  className="project-github" src={githubwhite} width={30}/>
+                                </a>
+                                <a href="https://devpost.com/software/link-peydzb">
+                                    <img  className="project-link" src={externallinkwhite} width={30}/>
+                                </a>
+                            </div> */}
+                            
+                        </div>
+                    </div>
+                    
+
+                        
+                   
                 </div>
                 
-                <div className='projects-cards'>
-                <Cards className='card' cardColor='five' >
-                        <h3 className='card-header'>Link App Mobile.</h3>
-                        <h2 className='card-desc-dark'>mobile</h2>
-                        <div className='card-stacks'> 
-                            <p1 className='stacks-dark'>ReactNative</p1>
-                            <p1 className='stacks-dark'>Figma</p1>
-                            <p1 className='stacks-dark'>ExpoCLI</p1>
-                        </div>
-                        <div className='links'>
-                                <a href='https://github.com/yaj-23/RUHacks'>
-                                    <img className='link'alt='yajurva' src={githubdark}/>
-                                </a>
-                                <a href='https://devpost.com/software/link-peydzb'>
-                                    <img className='link'alt='yajurva' src={externallinkdark}/>
-                                </a>
-
-                            </div>
-                </Cards>
-                <br></br>
-                <Cards className='card' cardColor='six' >
-                        <h3 className='card-header'>Greenify  Mobile.</h3>
-                        <h2 className='card-desc'>mobile</h2>
-                        <div className='card-stacks'> 
-                            <p1 className='stacks'>ReactNative</p1>
-                            <p1 className='stacks'>Figma</p1>
-                            <p1 className='stacks'>ExpoCLI</p1>
-                        </div>
-                        <div className='links'>
-                                <a href='https://github.com/yaj-23/TOHacks'>
-                                    <img className='link' alt='yajurva'src={githubwhite}/>
-                                </a>
-                                <a href='https://devpost.com/software/greenify-n4pg0b'>
-                                    <img className='link'alt='yajurva' src={externallinkwhite}/>
-                                </a>
-
-                            </div>
-                </Cards>
-                <br></br>
-                <Cards className='card' cardColor='seven' >
-                        <h3 className='card-header'>XplorTo  Mobile.</h3>
-                        <h2 className='card-desc'>mobile</h2>
-                        <div className='card-stacks'> 
-                            <p1 className='stacks'>Java</p1>
-                            <p1 className='stacks'>Android Studio</p1>
-                        </div>
-                        <div className='links'>
-                                <a href='https://github.com/yaj-23/XplorToronto'>
-                                    <img className='link'alt='yajurva' src={githubwhite}/>
-                                </a>
-                               
-
-                            </div>
-                </Cards>
-                <br></br>
-                <Cards className='card' cardColor='eight' >
-                        <h3 className='card-header'>GPU/ALU Design.</h3>
-                        <h2 className='card-desc-dark-outlier'>hardware</h2>
-                        <div className='card-stacks'> 
-                            <p1 className='stacks-dark'>VHDL</p1>
-                            <p1 className='stacks-dark'>Quartus</p1>
-                        </div>
-                        <div className='links'>
-                                <a href='https://github.com/yaj-23/COE328_ALU-GPU_DESIGN'>
-                                    <img className='link'alt='yajurva' src={githubdark}/>
-                                </a>
-                                
-
-                        </div>
-                </Cards>
-            </div>
+               
+              
 
             
                 
             
-            </div>
+
 
 
 

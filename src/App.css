@@ -14,7 +14,10 @@
   font-family: "SF Thin";
   src: url(./components/fonts/SFThin.ttf);
 }
-
+@font-face {
+  font-family: "SF Bold";
+  src: url(./components/fonts/SFBold.ttf);
+}
 @font-face {
   font-family: "Agreement";
   src: url(./components/fonts/Agreement.ttf);
@@ -22,4 +25,12 @@
 @font-face {
   font-family: "CalibreReg";
   src: url(./components/fonts/Calibre-Regular.ttf);
+}
+@font-face {
+  font-family: "Afrah";
+  src: url(./components/fonts/AfrahDemo.ttf);
+}
+@font-face {
+  font-family: "AileronBlack";
+  src: url(./components/fonts/Aileron-Black.otf);
 }

@@ -1,47 +1,136 @@
 .works-container{
+    max-width: 100vw;
+    height: max-content;
     padding: 5rem;
+    margin-left: 5vw;
+    margin-right: 5vw;
     display: flex;
     flex-direction: column;
-    background: linear-gradient(180deg, #312e2e 0%, #000000 100%);
+    overflow: hidden;
+    background-color: white;
 }
 
-.works-cards{
+.header_line{
+    color: #b5b5b5;
+    font-family: 'SF Bold';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 5vw;
+    padding-bottom: 5vh;
+}
+
+.works-experience{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+.container{
+    padding-bottom: 5vh;
+    padding-top: 5vh;
     display: flex;
     flex-direction: row;
+    width: 100%;
+}
+
+.left{
+    width: 100%;
+    padding-top: 5vh;
+    
+}
+.right{
+    padding-top: 5vh;
     padding-bottom: 5vh;
-    align-items: center;
+    padding-left: 5vw;
+    width: 160%;
+}
+.work-position{
+    font-family: 'Aileron';
+    font-size: 3vw;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 700;
+    background: transparent;
+    padding-bottom: 1vh;
 }
 
-.company{
-    font-family: 'CalibreReg';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 2rem;
-    padding-top: 10vh;
-    padding-bottom: 5vh;
-
-    color: #FFFFFF;
+.work-company{
+    font-family: 'Calibre';
+    font-size: 1.5vw;
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 300;
+    background: transparent;
+    
+}
+.work-date{
+    font-family: 'Calibre';
+    font-size: 1.5vw;
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 300;
+    background: transparent;
+    padding-bottom: 1vh;
+}
+.work-desc{
+    font-family: 'Calibre';
+    font-size: 1.5vw;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 300;
+    background: transparent;
+    padding-bottom: 1vh;
 }
 
-.position{
-    font-family:'SF Thin';
-    font-style: normal;
-    font-weight: 250;
-    font-size: 18px;
-    line-height: 21px;
-    color: #FFFFFF;
-
-}
 
 @media screen and (max-width:960px){
     .works-container{
-        align-items: center;
-
+        max-width: 100%;
+        margin: 0;
         padding:0;
-    }
-    .works-cards{
         display: flex;
         flex-direction: column;
+    }
+    .header_line{
+        padding-top: 5vh;
+        width: 100%;
+        margin: auto;
+        font-size: 11.5vw;
+        text-align: center;
+        padding-bottom: 2vh;
+    }
+
+    .container{
+        text-align: center;        
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        padding:0;
+    }
+    .left{
+        padding-bottom: 0vh;
+        width: 90vw;
+        text-align: center;        
+        display: flex;
+        flex-direction: column;
+    }
+    .right{
+        padding-bottom: 0vh;
+        width: 90vw;
+        text-align: center;        
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .work-position{
+        margin: auto;
+        font-size: 12vw;
+    }
+    .work-company{
+        font-size: 5vw;
+    }
+    .work-date{
+        font-size: 5vw;
+    }
+    .work-desc{
+        font-size: 3vw;
     }
     
 }
