@@ -38,3 +38,7 @@
   font-family: "AileronBlack";
   src: url(./components/fonts/Aileron-Black.otf);
 }
+@font-face {
+  font-family: "AileronReg";
+  src: url(./components/fonts/Aileron-Regular.otf);
+}
