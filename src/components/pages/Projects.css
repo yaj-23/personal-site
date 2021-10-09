@@ -87,6 +87,13 @@
   background: transparent;
   padding-bottom: 1vh;
 }
+.project-github{
+  padding:2vw;
+}
+.project-link{
+  padding:2vw;
+
+}
 .project-desc-contrast{
   font-family: 'SF Thin';
   font-size: 1.5vw;
