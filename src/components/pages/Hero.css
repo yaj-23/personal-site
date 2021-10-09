@@ -29,9 +29,8 @@
 }
 
 .hero-title{
-  opacity: 70%;
   width: 100%;
-  color: #000000;
+  color: rgb(37, 36, 36);;
   font-family: 'SF Bold';
   font-style: normal;
   font-weight: 900;
@@ -74,7 +73,7 @@
 
 
 .medium-text{
-  font-family: 'Aileron';
+  font-family: 'Calibre';
   font-size: 2vw;
   color: white;
   font-weight: 500;
@@ -85,7 +84,7 @@
 
 .medium-text-black{
   color: #000000;
-  font-family: 'Aileron';
+  font-family: 'Calibre';
   font-size: 2vw;
   font-weight: 500;
   background: transparent;

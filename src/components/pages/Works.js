@@ -20,7 +20,7 @@ function Works(){
                         </div>
 
                         <div className="right">
-                            <p1 className="work-desc"> I manage 30 First-Year Engineering Students with their Introduction to Engineering Course. 
+                            <p1 className="work-desc"> Currently managing 30 First-Year Engineering Students with their Introduction to Engineering Course. 
                                 As PM, I host multiple MATLAB tutorials tailoring assignments given to students for learning purposes, along with team-building sessions for
                                 design project competition. I support the Graduate Assistant and Professor with student team project management, teaching MATLAB to ensure the success of students enrolled in course.</p1>
                         </div>
