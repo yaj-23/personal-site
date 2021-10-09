@@ -19,6 +19,10 @@
   src: url(./components/fonts/SFBold.ttf);
 }
 @font-face {
+  font-family: "SFReg";
+  src: url(./components/fonts/SFReg.ttf);
+}
+@font-face {
   font-family: "Agreement";
   src: url(./components/fonts/Agreement.ttf);
 }

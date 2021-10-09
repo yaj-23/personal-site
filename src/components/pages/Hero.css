@@ -21,7 +21,7 @@
   margin-bottom: 1vh;
   width: 100%;
   color: #b5b5b5;
-  font-family: 'AileronBlack';
+  font-family: 'SFReg';
   font-style: normal;
   font-weight: 900;
   font-size: 8vw;
@@ -73,7 +73,7 @@
 
 
 .medium-text{
-  font-family: 'Calibre';
+  font-family: 'SFReg';
   font-size: 2vw;
   color: white;
   font-weight: 500;
@@ -84,14 +84,14 @@
 
 .medium-text-black{
   color: #000000;
-  font-family: 'Calibre';
+  font-family: 'SFReg';
   font-size: 2vw;
   font-weight: 500;
   background: transparent;
   padding-bottom: 1vh;
 }
 .small-text{
-  font-family: 'Calibre';
+  font-family: 'SFReg';
   font-size: 1.3vw;
   color: white;
   background: transparent;

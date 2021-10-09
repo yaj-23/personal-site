@@ -36,7 +36,7 @@ function Projects() {
                         <div className="project-right">
                             <h1 className="project-name-contrast">Zensations</h1>
                             <p1  className="project-desc-contrast">
-                                Frond-End comprised of React Ionic. For the backend, we used Express.js with Node.js and TypeScript for a REST API to communicate.
+                                Front-End comprised of React Ionic. For the backend, we used Express.js with Node.js and TypeScript for a REST API to communicate.
                                 The database of choice was none other than Cockroachdb, storing Yoga exercises, image URL's and a seperate table mapping Yoga positions with emotions (Angry, Sad, Happy, etc.) in order to improve the classification of exercises.
                             </p1>
                           
