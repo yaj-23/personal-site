@@ -47,7 +47,7 @@
 .work-position{
     font-family: 'Aileron';
     font-size: 3vw;
-    color: rgba(0, 0, 0, 0.8);
+    border-color: rgb(37, 36, 36);
     font-weight: 700;
     background: transparent;
     padding-bottom: 1vh;
@@ -56,7 +56,7 @@
 .work-company{
     font-family: 'Calibre';
     font-size: 1.5vw;
-    color: rgba(0, 0, 0, 0.4);
+    border-color: rgb(37, 36, 36);
     font-weight: 300;
     background: transparent;
     
@@ -64,7 +64,7 @@
 .work-date{
     font-family: 'Calibre';
     font-size: 1.5vw;
-    color: rgba(0, 0, 0, 0.4);
+    border-color: rgb(37, 36, 36);
     font-weight: 300;
     background: transparent;
     padding-bottom: 1vh;
@@ -72,7 +72,7 @@
 .work-desc{
     font-family: 'Calibre';
     font-size: 1.5vw;
-    color: rgba(0, 0, 0, 0.8);
+    border-color: rgb(37, 36, 36);
     font-weight: 300;
     background: transparent;
     padding-bottom: 1vh;

@@ -62,7 +62,7 @@
 .project-name{
   font-family: 'Aileron';
   font-size: 3vw;
-  color: rgba(0, 0, 0, 0.8);
+  border-color: rgb(37, 36, 36);
   font-weight: 700;
   background: transparent;
   padding-bottom: 1vh;
@@ -71,7 +71,7 @@
 
   font-family: 'Calibre';
   font-size: 1.5vw;
-  color: rgba(0, 0, 0, 0.8);
+  border-color: rgb(37, 36, 36);
   font-weight: 300;
   background: transparent;
   padding-bottom: 1vh;
