@@ -23,11 +23,11 @@ function Projects() {
                             <h1 className="project-name">Vada Medical</h1>
                             <p1  className="project-desc">Utilized Voiceflow for our automated chatbot system which is intergrated with Google Assistant Programs. The data received from the chatbot is stored in an excel file which uses Dropbase to store into a database. This data is fetched using REST API Methods, and utilized to publish on a website/chat area or a physical document of some sort. The website is created using React Js, HTML/CSS</p1>
                             <div className="links">
-                                <a href="https://github.com/yaj-23/HackTheNorth2021"><
-                                    img  className="project-github" src={githubdark} width={30}/>
+                                <a href="https://github.com/yaj-23/HackTheNorth2021">
+                                    <img alt="yaj" className="project-github" src={githubdark} width={30}/>
                                 </a>
                                 <a href="https://vada-medical.tech/">
-                                    <img  className="project-link" src={externallinkdark} width={30}/>
+                                    <img alt="yaj" className="project-link" src={externallinkdark} width={30}/>
                                 </a>
                             </div>
                            
@@ -42,10 +42,10 @@ function Projects() {
                           
                             <div className="links">
                                 <a href="https://github.com/yaj-23/DeltaHacks7">
-                                    <img  className="project-github" src={githubwhite} width={30}/>
+                                    <img alt="yaj"  className="project-github" src={githubwhite} width={30}/>
                                 </a>
                                 <a href="https://vada-medical.tech/">
-                                    <img  className="project-link" src={externallinkwhite} width={30}/>
+                                    <img alt="yaj" className="project-link" src={externallinkwhite} width={30}/>
                                 </a>
                             </div>
                            
@@ -69,10 +69,10 @@ function Projects() {
                         
                             <div className="links">
                                 <a href="https://github.com/yaj-23/RUHacks">
-                                    <img  className="project-github" src={githubwhite} width={30}/>
+                                    <img alt="yaj" className="project-github" src={githubwhite} width={30}/>
                                 </a>
                                 <a href="https://devpost.com/software/link-peydzb">
-                                    <img  className="project-link" src={externallinkwhite} width={30}/>
+                                    <img alt="yaj" className="project-link" src={externallinkwhite} width={30}/>
                                 </a>
                             </div>
                             
@@ -82,11 +82,11 @@ function Projects() {
                                 <h1 className="project-name">Greenify</h1>
                                 <p1  className="project-desc">The frontend and design for the app was made with Figma. Utilized Expo to help with the back-end and make the ReactNative APP. Google Clouds Firebase to store all of our users. Javascript, as the baseline programming language, Firestore to host the database, and Postman for API testing.</p1>
                                 <div className="links">
-                                    <a href="https://github.com/yaj-23/TOHacks"><
-                                        img  className="project-github" src={githubdark} width={30}/>
+                                    <a href="https://github.com/yaj-23/TOHacks">
+                                        <img alt="yaj" className="project-github" src={githubdark} width={30}/>
                                     </a>
                                     <a href="https://devpost.com/software/greenify-n4pg0b">
-                                        <img  className="project-link" src={externallinkdark} width={30}/>
+                                        <img alt="yaj" className="project-link" src={externallinkdark} width={30}/>
                                     </a>
                                 </div>
                             
@@ -101,7 +101,7 @@ function Projects() {
                                 </p1>
                                 <div className="links">
                                     <a href="https://github.com/yaj-23/COE328_ALU-GPU_DESIGN">
-                                        <img  className="project-github" src={githubdark} width={30}/>
+                                        <img alt="yaj" className="project-github" src={githubdark} width={30}/>
                                     </a>
                                    
                                 </div>

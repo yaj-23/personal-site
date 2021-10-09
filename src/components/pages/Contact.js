@@ -22,17 +22,17 @@ function Contact() {
                     </a>
                     <a href='https://github.com/yaj-23'>
                         <Button className='contact-btn'buttonColor='primary' buttonSize='btn-medium' buttonStyle='btn-primary'>
-                            <img src={githubdark}/>
+                            <img alt="yaj"src={githubdark}/>
                         </Button>
                     </a>
                     <a href='https://www.linkedin.com/in/yajurva-trivedi/'>
                         <Button className='contact-btn'buttonColor='primary' buttonSize='btn-medium' buttonStyle='btn-primary'>
-                            <img src={linkedin}/>
+                            <img alt="yaj" src={linkedin}/>
                         </Button>
                     </a>
                     <a href='https://www.instagram.com/tri_yajurva/'>
                         <Button className='contact-btn'buttonColor='primary' buttonSize='btn-medium' buttonStyle='btn-primary'>
-                            <img src={instagram}/>
+                            <img alt="yaj" src={instagram}/>
                         </Button>
                     </a>
                 </div>        

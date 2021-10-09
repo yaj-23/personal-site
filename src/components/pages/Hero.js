@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import './Hero.css';
 import {Button} from '../Button.js';
 import Typewriter from 'typewriter-effect'; 
@@ -6,31 +6,31 @@ import {Link} from 'react-scroll';
 
 
 
-function getWindowDimensions() {
-    const { innerWidth: width, innerHeight: height } = window;
-    return {
-      width,
-      height
-    };
-}
+// function getWindowDimensions() {
+//     const { innerWidth: width, innerHeight: height } = window;
+//     return {
+//       width,
+//       height
+//     };
+// }
 
-function useWindowDimensions() {
-    const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
+// function useWindowDimensions() {
+//     const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
   
-    useEffect(() => {
-      function handleResize() {
-        setWindowDimensions(getWindowDimensions());
-      }
+//     useEffect(() => {
+//       function handleResize() {
+//         setWindowDimensions(getWindowDimensions());
+//       }
   
-      window.addEventListener('resize', handleResize);
-      return () => window.removeEventListener('resize', handleResize);
-    }, []);
+//       window.addEventListener('resize', handleResize);
+//       return () => window.removeEventListener('resize', handleResize);
+//     }, []);
   
-    return windowDimensions;
-  }
+//     return windowDimensions;
+//   }
 function Hero() {
 
-    const {width } = useWindowDimensions();
+    // const {width } = useWindowDimensions();
 
 
 
