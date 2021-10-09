@@ -21,7 +21,7 @@
   margin-bottom: 1vh;
   width: 100%;
   color: #b5b5b5;
-  font-family: 'SFReg';
+  font-family: 'SF Bold';
   font-style: normal;
   font-weight: 900;
   font-size: 8vw;
@@ -91,7 +91,7 @@
   padding-bottom: 1vh;
 }
 .small-text{
-  font-family: 'SFReg';
+  font-family: 'SF Thin';
   font-size: 1.3vw;
   color: white;
   background: transparent;

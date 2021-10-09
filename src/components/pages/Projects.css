@@ -72,7 +72,7 @@
 }
 .project-desc{
 
-  font-family: 'SFReg';
+  font-family: 'SF Thin';
   font-size: 1.5vw;
   border-color: rgb(37, 36, 36);
   font-weight: 300;
@@ -88,7 +88,7 @@
   padding-bottom: 1vh;
 }
 .project-desc-contrast{
-  font-family: 'SFReg';
+  font-family: 'SF Thin';
   font-size: 1.5vw;
   color: rgba(255, 255, 255, 1);
   font-weight: 300;
