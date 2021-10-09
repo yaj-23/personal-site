@@ -4,6 +4,7 @@ import {Button} from '../Button.js';
 import githubdark from '../images/github.svg';
 import linkedin from '../images/linkedin.svg';
 import instagram from '../images/instagram.svg';
+import email from '../images/email.svg';
 
 
 
@@ -17,7 +18,8 @@ function Contact() {
                 <div className="socials">
                     <a href='mailto: yajurva.trivedi@ryerson.ca'>
                         <Button className='contact-btn'buttonColor='primary' buttonSize='btn-medium' buttonStyle='btn-primary'>
-                                email me
+                            <img alt="yaj"src={email}/>
+
                         </Button>
                     </a>
                     <a href='https://github.com/yaj-23'>
