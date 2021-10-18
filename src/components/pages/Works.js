@@ -75,8 +75,8 @@ while branding and managing digital presence. Integrated key SEO techniques to o
                     <div className='container'>
                         <div className="left">
                             <h2 className="work-position">Web Developer</h2>
-                            <h5 className="work-company">Cash & Cell Mart </h5>
-                            <h5 className="work-date">May 2020 - September 2020</h5>
+                            <h5 className="work-company">TETRA Ryerson </h5>
+                            <h5 className="work-date">February 2021 - Present</h5>
 
                         </div>
 
