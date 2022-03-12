@@ -56,14 +56,14 @@ function Hero() {
                 <div className='second_part'>
                     <div className="box">
                         <h4 className="medium-text">CURRENT.</h4>
-                        <p1 className="small-text">Project Manager | CEN100</p1>
-                        <p1 className="small-text">Faculty of Engineering & Architectural Science | Ryerson U </p1>
+                        <p1 className="small-text">Incoming SDE Intern | Front-End </p1>
+                        <p1 className="small-text">IBM ® </p1>
                     </div>
                     <br></br>
                     <div className="box">
                         <h4 className="medium-text">PREVIOUS.</h4>
-                        <p1 className="small-text">Front-End Developer</p1>
-                        <p1 className="small-text">Crossroads Free Methodist Church</p1>
+                        <p1 className="small-text">Developer Assistant</p1>
+                        <p1 className="small-text">EiQ Techonologies Inc</p1>
                     </div>
                 </div>
                 
