@@ -10,92 +10,20 @@
   background-color: white;
 }
 
-.line1{
-  padding-top: 5vh;
-  display: flex;
-  flex-direction: row;
-}
-.line2{
-  padding-top: 5vh;
+.projectsCards{
   display: flex;
   flex-direction: row;
 }
 
-.line3{
-  padding-top: 5vh;
-  display: flex;
-  flex-direction: row;
-}
 
-.project-left{
-  padding-top: 3vh;
-  padding-bottom: 2vh;
-  padding-right: 2vw;
-  padding-left: 3vw;
-  border: 1px solid transparent;
-  border-radius: 50px;
-  text-align: center;
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: white;
-}
 
-.project-right{
-  padding-right: 3vw;
-  padding-left: 3vw;
-  padding-top: 2vh;
-  padding-bottom: 2vh;
-  border: 1px solid transparent;
-  border-radius: 50px;
-  text-align: center;
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color:  rgb(37, 36, 36);
-
-}
 .links{
+  padding-top: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
-.project-name{
-  font-family: 'SF Bold';
-  font-size: 3vw;
-  border-color: rgb(37, 36, 36);
-  font-weight: 700;
-  background: transparent;
-  padding-bottom: 1vh;
-}
-.project-desc{
 
-  font-family: 'AileronReg';
-  font-size: 1.5vw;
-  border-color: rgb(37, 36, 36);
-  font-weight: 300;
-  background: transparent;
-  padding-bottom: 1vh;
-}
-.project-name-contrast{
-  font-family: 'SFReg';
-  font-size: 3vw;
-  color: rgba(255, 255, 255, 1);
-  font-weight: 700;
-  background: transparent;
-  padding-bottom: 1vh;
-}
-
-.project-desc-contrast{
-  font-family: 'AileronReg';
-  font-size: 1.5vw;
-  color: rgba(255, 255, 255, 1);
-  font-weight: 300;
-  background: transparent;
-  padding-bottom: 1vh;
-}
 
 @media screen  and (max-width:960px){
   .projects-container{
@@ -105,58 +33,9 @@
     display: flex;
     padding-bottom: 5vh;
     flex-direction: column;
-    
   }
-  .line1{
-    padding-top: 0;
+  .projectsCards{
     display: flex;
     flex-direction: column;
-    width: 90vw;
-    align-items: center;
-  }
-  .line2{
-    display: flex;
-    flex-direction: column;
-    width: 90vw;
-    align-items: center;
-  }
-  .line3{
-    
-    display: flex;
-    flex-direction: column;
-    width: 90vw;
-    align-items: center;
-  }
-  .project-left{
-    align-items: center;
-    padding-left:0;
-    padding-right: 0;
-    padding-bottom: 0vh;
-    width: 80vw;
-    text-align: center;        
-    display: flex;
-    flex-direction: column;
-  }
-  .project-right{
-    align-items: center;
-    padding-left:0;
-    padding-right: 0;
-    padding-bottom: 0vh;
-    width: 80vw;
-    text-align: center;        
-    display: flex;
-    flex-direction: column;
-  }
-  .project-name{
-    font-size: 10vw;
-  }
-  .project-desc{
-    font-size: 3vw;
-  }
-  .project-name-contrast{
-    font-size: 10vw;
-  }
-  .project-desc-contrast{
-    font-size: 3vw;
   }
 }

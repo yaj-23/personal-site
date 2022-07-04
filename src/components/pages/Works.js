@@ -16,14 +16,15 @@ function Works(){
                         <div className="left">
                             <h2 className="work-position">Developer Assistant</h2>
                             <h5 className="work-company">EiQ Technologies Inc</h5>
-                            <h5 className="work-date">November 2021 - February 2022</h5>
+                            <h5 className="work-date">November 2021 - March 2022</h5>
 
                         </div>
 
                         <div className="right">
-                            <p1 className="work-desc"> Currently managing 30 First-Year Engineering Students with their Introduction to Engineering Course. 
-                                As PM, I host multiple MATLAB tutorials tailoring assignments given to students for learning purposes, along with team-building sessions for
-                                design project competition. I support the Graduate Assistant and Professor with student team project management, teaching MATLAB to ensure the success of students enrolled in course.</p1>
+                            <p1 className="work-desc">• Developed the dashboard views on the mobile application while integrating data stored in the NoSQL database.
+                            <br></br>• Incorporated flutter widgets to create two games to determine the end-users current emotional state, which is used to train the Emotion AI.
+                            <br></br>• Integrated vital design aspects into a prototype using Flutter and Firebase for authentication purposes. 
+                            </p1>
                         </div>
                     </div>
 
@@ -36,11 +37,31 @@ function Works(){
                         </div>
 
                         <div className="right">
-                            <p1 className="work-desc"> Currently managing 30 First-Year Engineering Students with their Introduction to Engineering Course. 
-                                As PM, I host multiple MATLAB tutorials tailoring assignments given to students for learning purposes, along with team-building sessions for
-                                design project competition. I support the Graduate Assistant and Professor with student team project management, teaching MATLAB to ensure the success of students enrolled in course.</p1>
+                            <p1 className="work-desc">• Managed 30 First-Year Engineering Students with their Introduction to Engineering Course. 
+                                <br></br>• Hosted multiple MATLAB tutorials tailoring assignments, along with team-building sessions for design project competition. 
+                                <br></br>• Supported the Graduate Assistant with student team management.</p1>
                         </div>
                     </div>
+
+                    <div className='container'>
+                        <div className="left">
+                            <h2 className="work-position">Web Developer</h2>
+                            <h5 className="work-company">TETRA Ryerson </h5>
+                            <h5 className="work-date">February 2021 - March 2022</h5>
+
+                        </div>
+
+                        <div className="right">
+                            <p1 className="work-desc">
+                            • Constructed and deployed modern website utilizing concepts of HTML5/CSS and JavaScript to promote event
+                            information for Tetra Ryerson, reaching the student body across Ryerson University.
+                           <br></br> • Collaborated with graphic designers and marketing team to generate UX/UI designs and palettes for Tetra
+                            Ryerson's website while implementing strategies to scale them from initial design to release.
+                            </p1>
+                            
+                        </div>
+                    </div>
+                    
 
                     <div className='container'>
                         <div className="left">
@@ -51,28 +72,10 @@ function Works(){
                         </div>
 
                         <div className="right">
-                            <p1 className="work-desc"> Designed user interface models for two websites based on modern principles while abiding by the AODA rules.
-                            Created web templates using HTML/CSS, JavaScript on WordPress for the organization for 3+ sites.
-                            Constructed a container application for storing and accessing video seminars, notifying for individuals who own
+                            <p1 className="work-desc">• Designed user interface models for two websites based on modern principles while abiding by the AODA rules.
+                            <br></br>• Created web templates using HTML/CSS, JavaScript on WordPress for the organization for 3+ sites.
+                            <br></br>• Constructed a container application for storing and accessing video seminars, notifying for individuals who own
                             the application worldwide.</p1>
-                        </div>
-                    </div>
-                    <div className='container'>
-                        <div className="left">
-                            <h2 className="work-position">Web Developer</h2>
-                            <h5 className="work-company">TETRA Ryerson </h5>
-                            <h5 className="work-date">February 2021 - Present</h5>
-
-                        </div>
-
-                        <div className="right">
-                            <p1 className="work-desc">
-
-                            Constructed and deployed modern website utilizing concepts of HTML5/CSS and JavaScript to promote event
-                            information for Tetra Ryerson, reaching the student body across Ryerson University.
-                            Collaborated with graphic designers and marketing team to generate UX/UI designs and palettes for Tetra
-                            Ryerson's website while implementing strategies to scale them from initial design to release.
-                            </p1>
                         </div>
                     </div>
                     
@@ -85,10 +88,11 @@ function Works(){
                         </div>
 
                         <div className="right">
-                            <p1 className="work-desc">Led the Yatara Designs development and marketing team to create tailored websites and logos for 5+ clients
-                            while branding and managing digital presence. Integrated key SEO techniques to optimize the scores (in SEOBILITY) of each website by at least 25-33%. </p1>
+                            <p1 className="work-desc">• Led the Yatara Designs development and marketing team to create tailored websites and logos for 5+ clients
+                            while branding and managing digital presence. 
+                            <br></br>• Integrated key SEO techniques to optimize the scores (in SEOBILITY) of each website by at least 25-33%. </p1>
                         </div>
-                    </div>
+                    </div> 
 
                     
 

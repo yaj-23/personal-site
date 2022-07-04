@@ -1,0 +1,48 @@
+.cardContainer{
+    margin: 1rem;
+    width: 40vw;
+    height: 30vh;
+    background-color: white;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid;
+    border-color:rgb(37, 36, 36) ;
+    border-radius: 50px;
+
+  }
+
+.ProjName{
+    font-family: 'SF Bold';
+    font-size: 2.5vw;
+    border-color: rgb(37, 36, 36);
+    font-weight: 700;
+    background: transparent;
+}
+
+.ProjDesc{
+    font-family: 'AileronReg';
+    font-size: 1.1vw;
+    border-color: rgb(37, 36, 36);
+    font-weight: 300;
+    background: transparent;
+    text-align: left;
+}
+
+@media screen and (max-width: 960px){
+    .cardContainer{
+        align-self: center;
+        width: 80vw;
+        height: max-content;
+    }
+    .ProjName{
+        font-size: 8vw;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .ProjDesc{
+        font-size: 5vw;
+        text-align: center;
+    }
+}

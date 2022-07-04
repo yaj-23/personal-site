@@ -6,31 +6,9 @@ import {Link} from 'react-scroll';
 
 
 
-// function getWindowDimensions() {
-//     const { innerWidth: width, innerHeight: height } = window;
-//     return {
-//       width,
-//       height
-//     };
-// }
 
-// function useWindowDimensions() {
-//     const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
-  
-//     useEffect(() => {
-//       function handleResize() {
-//         setWindowDimensions(getWindowDimensions());
-//       }
-  
-//       window.addEventListener('resize', handleResize);
-//       return () => window.removeEventListener('resize', handleResize);
-//     }, []);
-  
-//     return windowDimensions;
-//   }
 function Hero() {
 
-    // const {width } = useWindowDimensions();
 
 
 
@@ -43,20 +21,20 @@ function Hero() {
                         <h1 className='name'>
                             <Typewriter className='typewriter'
                                 options={{
-                                    strings:["Yajurva Trivedi." ],
+                                    strings:["SWE Intern", "Comp End Student",  ],
                                     autoStart: true,
                                     loop :true
                                 }}
                             />
                             
                         </h1>
-                        <h2 className='hero-title'>Software Engineer.</h2>
+                        <h2 className='hero-title'>Yajurva Trivedi.</h2>
                 </div>
                
                 <div className='second_part'>
                     <div className="box">
                         <h4 className="medium-text">CURRENT.</h4>
-                        <p1 className="small-text">Incoming SDE Intern | Front-End </p1>
+                        <p1 className="small-text">SDE Intern</p1>
                         <p1 className="small-text">IBM ® </p1>
                     </div>
                     <br></br>

@@ -16,7 +16,6 @@
     font-style: normal;
     font-weight: 900;
     font-size: 6vw;
-    padding-bottom: 5vh;
 }
 
 .works-experience{
@@ -27,10 +26,12 @@
 }
 .container{
     padding-bottom: 5vh;
-    padding-top: 5vh;
     display: flex;
     flex-direction: row;
+    height: max-content;
+    margin: 5px;
     width: 100%;
+   
 }
 
 .left{
@@ -51,6 +52,7 @@
     font-weight: 700;
     background: transparent;
     padding-bottom: 1vh;
+
 }
 
 .work-company{
@@ -59,6 +61,8 @@
     border-color: rgb(37, 36, 36);
     font-weight: 300;
     background: transparent;
+    color: #b5b5b5;
+
     
 }
 .work-date{
@@ -72,7 +76,7 @@
 .work-desc{
     font-family: "AileronReg";
     font-weight: 100;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     border-color:  #fff;
     background: transparent;
     padding-bottom: 1vh;
@@ -113,6 +117,7 @@
     }
     .right{
         padding-bottom: 0vh;
+        padding-top: 0vh;
         width: 90vw;
         text-align: center;        
         display: flex;
@@ -121,16 +126,22 @@
     }
     .work-position{
         margin: auto;
-        font-size: 12vw;
+        font-size: 8vw;
     }
     .work-company{
         font-size: 5vw;
+        font-family: 'SFReg';
+        font-weight: 700;
+        
+
+
     }
     .work-date{
         font-size: 5vw;
     }
     .work-desc{
-        font-size: 3vw;
+        font-size: 5vw;
+        
     }
     
 }
