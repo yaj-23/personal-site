@@ -8,7 +8,6 @@ function Works(){
             <div className='works-container' id='experience'>
                 <h1 className='header_line'>Professional Experience.</h1>
                 
-                {/* <a href="src\components\YajurvaTrivediResume.pdf" download>Download Resume</a> */}
                 <div className='works-experience'>
 
                 

@@ -16,23 +16,23 @@ function Contact() {
                     Contact Me.
                 </h1>
                 <div className="socials">
-                    <a href='mailto: yajurva.trivedi@ryerson.ca'>
+                    <a href='mailto: yajurva.trivedi@ryerson.ca' target="_blank"  rel="noreferrer">
                         <Button className='contact-btn'buttonColor='primary' buttonSize='btn-medium' buttonStyle='btn-primary'>
                             <img alt="yaj"src={email}/>
 
                         </Button>
                     </a>
-                    <a href='https://github.com/yaj-23'>
+                    <a href='https://github.com/yaj-23' target="_blank"  rel="noreferrer">
                         <Button className='contact-btn'buttonColor='primary' buttonSize='btn-medium' buttonStyle='btn-primary'>
                             <img alt="yaj"src={githubdark}/>
                         </Button>
                     </a>
-                    <a href='https://www.linkedin.com/in/yajurva-trivedi/'>
+                    <a href='https://www.linkedin.com/in/yajurva-trivedi/' target="_blank"  rel="noreferrer">
                         <Button className='contact-btn'buttonColor='primary' buttonSize='btn-medium' buttonStyle='btn-primary'>
                             <img alt="yaj" src={linkedin}/>
                         </Button>
                     </a>
-                    <a href='https://www.instagram.com/tri_yajurva/'>
+                    <a href='https://www.instagram.com/tri_yajurva/' target="_blank"  rel="noreferrer">
                         <Button className='contact-btn'buttonColor='primary' buttonSize='btn-medium' buttonStyle='btn-primary'>
                             <img alt="yaj" src={instagram}/>
                         </Button>

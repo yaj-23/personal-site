@@ -22,10 +22,10 @@ export const Card = ({
             <h1 className="ProjName">{projectName}</h1>
             <p1 className="ProjDesc">{projectDesc}</p1>
             <div className="links">
-                 <a href={gitLink}>
+                 <a href={gitLink} target="_blank"  rel="noreferrer">
                     <img alt="yaj" className="project-github" src={githubdark} width={30}/>
                 </a>
-                <a href={webLink}>
+                <a href={webLink} target="_blank"  rel="noreferrer">
                     <img alt="yaj" className="project-link" src={externallinkdark} width={30}/>
                 </a>
             </div>
