@@ -21,7 +21,7 @@ function Hero() {
                         <h1 className='name'>
                             <Typewriter className='typewriter'
                                 options={{
-                                    strings:["SWE Intern", "Comp End Student",  ],
+                                    strings:["SWE Intern", "Comp Eng Student",  ],
                                     autoStart: true,
                                     loop :true
                                 }}
