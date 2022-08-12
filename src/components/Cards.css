@@ -23,13 +23,29 @@
 
 .ProjDesc{
     font-family: 'AileronReg';
+    font-weight: 100;
     font-size: 1.1vw;
-    border-color: rgb(37, 36, 36);
+    border-color: rgb(87, 85, 85);
     font-weight: 300;
     background: transparent;
     text-align: left;
 }
-
+.project-github{
+    transform: scale(1);
+    transition: all 0.3s ease-out;
+}
+.project-github:hover{
+    transform: scale(1.3);
+    transition: all 0.3s ease-out;
+}
+.project-link{
+    transform: scale(1);
+    transition: all 0.3s ease-out;
+}
+.project-link:hover{
+    transform: scale(1.3);
+    transition: all 0.3s ease-out;
+}
 @media screen and (max-width: 960px){
     .cardContainer{
         align-self: center;
