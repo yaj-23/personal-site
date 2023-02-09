@@ -23,7 +23,6 @@ export const Button = ( {
         <button className={`btn ${checkButtonStyle} 
         ${checkButtonSize} 
         ${checkButtonColor}`} onClick={onClick} type={type}>
-        
             {children}
         </button>
     )

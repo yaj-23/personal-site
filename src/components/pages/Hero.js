@@ -56,6 +56,11 @@ function Hero() {
                             Projects.
                         </Button>
                     </Link>
+                    <Link to='certifications' duration={800} smooth={true}>
+                        <Button buttonColor='quaternary' buttonSize='btn-medium' buttonStyle='btn-primary'>
+                            Certifications.
+                        </Button>
+                    </Link>
                     <Link to='contact' duration={800} smooth={true}>
                         <Button buttonColor='tertiary' buttonSize='btn-medium' buttonStyle='btn-primary'>
                             Contact.

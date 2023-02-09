@@ -22,7 +22,6 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-
 }
 .container{
     padding-bottom: 5vh;
@@ -52,7 +51,6 @@
     font-weight: 700;
     background: transparent;
     padding-bottom: 1vh;
-
 }
 
 .work-company{
