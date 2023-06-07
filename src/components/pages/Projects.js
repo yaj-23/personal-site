@@ -34,7 +34,14 @@ function Projects() {
                             projectDesc="The frontend and design for the app was made with Figma. Utilized Expo to help with the back-end and make the ReactNative APP. Google Clouds Firebase to store all of our users. Javascript, as the baseline programming language, Firestore to host the database, and Postman for API testing."
                             gitLink="https://github.com/yaj-23/TOHacks" webLink="https://devpost.com/software/greenify-n4pg0b"
                         />
-                    </div>                 
+                    </div>   
+
+                    <div className='projectsCards'>
+                        <Card projectName="Cook-E" 
+                            projectDesc="Utilizes Cohere's Generate Models API to generate Recipe from user prompt (from React-JS Dashboard). Incorporated Chat-Like behaviour with AI by providing context through historical logs. We process the response from Cohere API for ingredients list and feed to Nutritional Facts API. We display all information in respective categories."
+                            gitLink="https://github.com/yaj-23/Cook-E-MetHacks2023" webLink="https://devpost.com/software/cook-e"
+                        />
+                    </div>               
             </div>
 
         </>
